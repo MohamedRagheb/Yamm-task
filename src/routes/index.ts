@@ -1,19 +1,24 @@
 import { lazy } from "react";
 
-// React Router Dom
-import { createHashRouter } from "react-router-dom";
-
 // Types
-import type { RouteObject } from "react-router";
+import { createBrowserRouter, RouteObject } from "react-router";
 
 export const routes: RouteObject[] = [
   {
     Component: lazy(() => import("../layouts/PrivateLayout")),
     children: [
       // { path: "*", Component: lazy(() => import("../pages/NotFound")) },
-      { path: "/", Component: lazy(() => import("../pages")), index: true },
+      {
+        path: "/orders",
+        Component: lazy(() => import("../pages/orders")),
+      },
+      {
+        path: "/",
+        Component: lazy(() => import("../pages/orders")),
+        index: true,
+      },
     ],
   },
 ];
 
-export const router = createHashRouter(routes);
+export const router = createBrowserRouter(routes);

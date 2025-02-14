@@ -1,5 +1,7 @@
 // Assets
 import { CiMenuBurger } from "react-icons/ci";
+
+// Utils
 import { observer } from "@/utils/observer.ts";
 
 const Navbar = () => {

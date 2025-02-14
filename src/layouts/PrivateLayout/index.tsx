@@ -8,9 +8,9 @@ const PrivateLayout = () => {
   return (
     <main className="h-screen w-screen overflow-hidden p-4 flex gap-4">
       <Sidebar />
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full min-h-full">
         <Navbar />
-        <div className="p-5">
+        <div className="p-5 h-full">
           <Outlet />
         </div>
       </div>
