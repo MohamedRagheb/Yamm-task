@@ -45,7 +45,7 @@ const ShowOrder = () => {
             <strong>Reason:</strong> {orderData?.reason}
           </p>
           <p>
-            <strong>Amount:</strong> ${orderData?.amount}
+            <strong>Amount:</strong> SAR {" " + orderData?.amount}
           </p>
           <p>
             <strong>Active:</strong> {orderData?.active ? "Yes" : "No"}

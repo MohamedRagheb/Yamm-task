@@ -10,7 +10,7 @@ const PrivateLayout = () => {
       <Sidebar />
       <div className="flex flex-col w-full min-h-full">
         <Navbar />
-        <div className="p-5 h-full">
+        <div className="p-5 h-full overflow-auto scroll-smooth">
           <Outlet />
         </div>
       </div>

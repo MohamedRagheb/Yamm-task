@@ -48,7 +48,7 @@ const Sidebar = () => {
               onClick={() => setIsOpen((isOpen) => !isOpen)}
             />
           </div>
-          <ul className="flex flex-col mt-6">
+          <ul className="flex flex-col mt-6 space-y-4">
             <Each<ISideBarLink>
               of={sidebarLinks}
               render={(item, index) => (

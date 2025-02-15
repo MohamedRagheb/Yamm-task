@@ -10,8 +10,10 @@ import { router } from "./routes";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 // React Query
-
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+
+// Components
+import Toast from "@/components/ui/Toast";
 
 function App() {
   const queryClient = new QueryClient();
@@ -19,6 +21,7 @@ function App() {
   return (
     <StrictMode>
       <QueryClientProvider client={queryClient}>
+        <Toast />
         <RouterProvider router={router} />
         <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>

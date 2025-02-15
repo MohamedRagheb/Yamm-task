@@ -1,6 +1,7 @@
 // Assets
-import { FiPackage } from "react-icons/fi";
+import { FiPackage, FiHome } from "react-icons/fi";
 
 export const sidebarLinks: ISideBarLink[] = [
-  { label: "Orders", icon: FiPackage, to: "/" },
+  { label: "Home", icon: FiHome, to: "/" },
+  { label: "Orders", icon: FiPackage, to: "/orders" },
 ];

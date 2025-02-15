@@ -7,8 +7,8 @@
       "store_logo": "https://picsum.photos/50",
       "store_url": "https://digitalhub.com",
       "amount": 189.97,
-      "active": false,
-      "decision": null,
+      "active": true,
+      "decision": "accept",
       "Items": [
         {
           "name": "Mechanical Keyboard",
@@ -31,8 +31,8 @@
       "store_logo": "https://picsum.photos/50",
       "store_url": "https://smartshop.com",
       "amount": 369.96,
-      "active": true,
-      "decision": null,
+      "active": false,
+      "decision": "reject",
       "Items": [
         {
           "name": "USB-C Hub",
@@ -109,7 +109,7 @@
       "store_logo": "https://picsum.photos/50",
       "store_url": "https://smartshop.com",
       "amount": 749.94,
-      "active": false,
+      "active": true,
       "decision": null,
       "Items": [
         {

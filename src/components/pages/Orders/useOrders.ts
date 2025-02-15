@@ -5,6 +5,7 @@ import { useQuery } from "@/contexts/queryContext";
 
 // Types
 import type { IOrder } from "./types";
+import { observer } from "@/utils/observer.ts";
 
 const useOrders = () => {
   const { forwardQuery } = useQuery();
@@ -26,16 +27,38 @@ const useOrders = () => {
     itemId: string;
     status: boolean;
   }) => {
-    console.log(itemId, status);
     await api({
       url: `/orders/${itemId}`,
       method: "PATCH",
       body: { active: status },
     });
     refetch();
+    observer.fire("notify", {
+      message: "Order status changed",
+      type: "success",
+    });
   };
 
-  return { orders: data, onStatusChange };
+  const onDecisionChange = async ({
+    itemId,
+    decision,
+  }: {
+    itemId: string;
+    decision: string;
+  }) => {
+    console.log(itemId, decision);
+    await api({
+      url: `/orders/${itemId}`,
+      method: "PATCH",
+      body: { decision },
+    });
+    refetch();
+    observer.fire("notify", {
+      message: "Order decision changed",
+      type: "success",
+    });
+  };
+  return { orders: data, onStatusChange, onDecisionChange };
 };
 
 export default useOrders;

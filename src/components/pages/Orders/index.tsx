@@ -15,6 +15,7 @@ import { FaEye } from "react-icons/fa";
 // Hooks
 import useOrders from "./useOrders";
 import { Link } from "react-router-dom";
+import Select from "@/components/ui/Select";
 
 const OrdersTableHeader: THead[] = [
   { title: "#" },
@@ -26,12 +27,18 @@ const OrdersTableHeader: THead[] = [
   { title: "Actions" },
 ];
 
+const decisionOptions = [
+  { label: "Reject", value: "reject" },
+  { label: "Accept", value: "accept" },
+  { label: "Escalate", value: "escalate" },
+];
+
 const Orders = () => {
-  const { orders, onStatusChange } = useOrders();
+  const { orders, onStatusChange, onDecisionChange } = useOrders();
   return (
     <Paper className="flex flex-col gap-8 pb-10 overflow-x-hidden">
-      <PaperTitle title="Orders" />
-      <div className="overflow-x-auto !w-full mb-8">
+      <PaperTitle title="Refunded Orders" />
+      <div className="overflow-x-auto !w-full ">
         <Table<IOrder>
           data={orders ?? []}
           headers={OrdersTableHeader}
@@ -68,6 +75,20 @@ const Orders = () => {
               <td>{item?.Items?.length}</td>
               <td>
                 <div className="flex flex-col gap-2 py-2 justify-center items-center">
+                  <Select
+                    data={decisionOptions}
+                    placeholder="choose Desision"
+                    aria-placeholder="choose Desision"
+                    itemLabel="label"
+                    itemValue="value"
+                    value={item?.decision || "placeholder"}
+                    onChange={(e) =>
+                      onDecisionChange({
+                        decision: e?.target?.value,
+                        itemId: item?.id,
+                      })
+                    }
+                  />
                   <Switch
                     status={item?.active}
                     title="change order active"
