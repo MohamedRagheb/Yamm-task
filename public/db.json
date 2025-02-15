@@ -1,2963 +1,3048 @@
 {
-  "stores":[
+  "orders":[
     {
-      "Id": "65e95129-4708-4ea4-94b5-d3696c86a822",
-      "reason": "Damaged item",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 709.94,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "bf24e13c-ce32-4b3f-a369-c97d4a378931",
-          "price": 29.99,
-          "quantity": 1
-        },
-        {
-          "name": "Smartwatch",
-          "id": "7f51a312-4423-447d-ac27-be7f7c8d5b72",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "9e7ce245-ca06-4f6e-a09a-811e5eed70c1",
-          "price": 39.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "598a2e97-8189-4b42-987c-4fb32d406a58",
-      "reason": "Refund request",
+      "id": "5a8aa854-2fc0-4df4-9c7a-a885947f1f9e",
+      "reason": "Customer request",
       "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://digitalhub.com",
-      "amount": 799.9,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "19b0bd67-5e56-43e0-a9ec-b8fe3ad3b957",
-          "price": 149.99,
-          "quantity": 3
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "cefc7316-485e-4983-a3f4-3d6b16e9c8a3",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "c69ab8c5-b449-4741-85fd-634692a89a82",
-          "price": 19.99,
-          "quantity": 1
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "468321b5-bca3-427b-9a0a-6ce57c438481",
-          "price": 29.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "b3d0facf-e59a-4813-b236-edc78cc435c8",
-      "reason": "Refund request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 809.91,
+      "amount": 189.97,
       "active": false,
       "decision": null,
       "Items": [
         {
-          "name": "USB-C Hub",
-          "id": "e21abeba-1d74-49e7-9632-89c3b175e315",
-          "price": 39.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "7caac4ae-94a7-499b-9f95-164d9eb1d5c4",
-          "price": 249.99,
+          "name": "Mechanical Keyboard",
+          "id": "708eea69-4c9f-4efd-b767-c11c3900b920",
+          "price": 129.99,
           "quantity": 1
         },
         {
           "name": "Laptop Stand",
-          "id": "726ef791-3919-419d-a668-33eb3ce40fc6",
+          "id": "6a33ca0c-e893-4bf0-9119-03043dc654e2",
           "price": 29.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "eb3f85be-63c5-4c38-8006-d82f98d54304",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
-          "name": "Portable SSD",
-          "id": "645ee615-ce33-4a95-b3ac-b1689229fbb6",
-          "price": 149.99,
           "quantity": 2
         }
       ]
     },
     {
-      "Id": "47f7f7fc-b6e7-456e-9aa6-b6aa9a6d6277",
+      "id": "04c003dd-3a63-4ef2-a63f-0a6335965617",
       "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 679.9,
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 369.96,
       "active": true,
       "decision": null,
       "Items": [
         {
-          "name": "Wireless Charger",
-          "id": "74606576-00f2-4428-9bea-3c99d9cac2a3",
-          "price": 19.99,
-          "quantity": 3
-        },
-        {
           "name": "USB-C Hub",
-          "id": "f0d6ba10-6597-472b-b975-0b8442969b26",
+          "id": "93c2aca1-1fdb-4828-8a51-630bc1f4d459",
           "price": 39.99,
-          "quantity": 3
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "7b450bd2-93f0-45a6-acf6-4c51714e63a7",
-          "price": 129.99,
-          "quantity": 2
-        },
-        {
-          "name": "Portable SSD",
-          "id": "d8231370-d24a-4bd2-9fc0-b9e713398d95",
-          "price": 149.99,
           "quantity": 1
         },
         {
           "name": "Bluetooth Speaker",
-          "id": "581fee17-27db-4705-839c-5a6980c9a7f3",
+          "id": "faeab1aa-8888-4a9c-b394-01538956254c",
           "price": 89.99,
+          "quantity": 2
+        },
+        {
+          "name": "Portable SSD",
+          "id": "70408c4a-de6e-4dcb-b148-549f3a20e0d9",
+          "price": 149.99,
           "quantity": 1
         }
       ]
     },
     {
-      "Id": "44a4fa49-33b4-4819-a7fb-97f42d351adf",
-      "reason": "Damaged item",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 1319.92,
+      "id": "7f7639db-0730-48be-8c1f-895cdc1fdec4",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 869.91,
       "active": true,
       "decision": null,
       "Items": [
         {
-          "name": "Smartwatch",
-          "id": "e1eeac60-150f-4569-a1d6-de4b638446e0",
-          "price": 199.99,
-          "quantity": 2
+          "name": "USB-C Hub",
+          "id": "56327361-a1cb-40fd-a17f-92e5a73db18c",
+          "price": 39.99,
+          "quantity": 1
         },
         {
-          "name": "Mechanical Keyboard",
-          "id": "b2b3b7ad-33fe-4422-8eae-fb8c39a8eb04",
-          "price": 129.99,
+          "name": "Gaming Mouse",
+          "id": "e3e3035d-80eb-4615-b14f-648e402f1e84",
+          "price": 79.99,
           "quantity": 3
         },
         {
-          "name": "Laptop Stand",
-          "id": "0081f3ab-f972-427c-b1f1-b35f319b6e81",
-          "price": 29.99,
-          "quantity": 1
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "095168e3-e573-4bf5-b426-2b62204e91a5",
-          "price": 249.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "b35c5294-a3d6-419f-8d6f-80df867d2a50",
-      "reason": "Refund request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 329.94,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "3eaa38ec-acf1-4231-9ad4-f9d9d79d6c83",
-          "price": 79.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "e1a3dac5-b64e-45e4-807f-1e0c536b2b5d",
-          "price": 19.99,
-          "quantity": 1
+          "name": "Portable SSD",
+          "id": "6dc31ed6-a482-4165-afa8-54217af36ee7",
+          "price": 149.99,
+          "quantity": 3
         },
         {
           "name": "Wireless Keyboard",
-          "id": "38976f25-77b5-4fc0-b03a-9170cade5e1a",
+          "id": "28f2163d-b681-49f3-bf79-1c2c524be0ba",
           "price": 49.99,
-          "quantity": 3
+          "quantity": 1
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "bbc21f31-a393-41aa-a356-74ac6f91fcac",
+          "price": 89.99,
+          "quantity": 1
         }
       ]
     },
     {
-      "Id": "05c82e8b-3007-4df8-83b2-b9e46cfe09b3",
-      "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 89.97,
+      "id": "4d420a09-fa33-4c3c-8999-24d2444f0eab",
+      "reason": "Customer request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 649.96,
       "active": true,
       "decision": null,
       "Items": [
         {
-          "name": "Laptop Stand",
-          "id": "b257ec71-275c-4aae-ac00-4ec17993fe89",
-          "price": 29.99,
+          "name": "Smartwatch",
+          "id": "192dde3c-323d-4f08-81b6-1bfbecbdc3a6",
+          "price": 199.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "67449707-eda0-4964-aeeb-2fb188d594f1",
+          "price": 149.99,
           "quantity": 3
         }
       ]
     },
     {
-      "Id": "dd2998dd-fa2b-4cd9-b723-5e6b524a5342",
+      "id": "0c817964-a0fe-478f-bd9b-11af8201ea33",
       "reason": "Customer request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 749.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Gaming Mouse",
+          "id": "41943059-3311-4002-832c-17b518b681cc",
+          "price": 79.99,
+          "quantity": 1
+        },
+        {
+          "name": "Smartwatch",
+          "id": "11b408be-ce38-4eec-9124-c3cd7c30f9fe",
+          "price": 199.99,
+          "quantity": 2
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "a1cfd511-93c8-479e-8390-5a418d3d230f",
+          "price": 89.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "d01dc02c-0c46-4cd8-84fc-295bcf3d4ba5",
+      "reason": "Customer request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
       "amount": 149.97,
-      "active": false,
+      "active": true,
       "decision": null,
       "Items": [
         {
           "name": "Wireless Keyboard",
-          "id": "2e79ea58-1596-4d45-8145-324cc9f8d98a",
+          "id": "a1f6520b-8792-44d7-a345-d0fb658c1fb5",
           "price": 49.99,
           "quantity": 3
         }
       ]
     },
     {
-      "Id": "017453b3-7b60-419f-8bb4-633549f8e0d7",
-      "reason": "Customer request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 639.93,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "USB-C Hub",
-          "id": "17f83806-8c09-4dd9-9d48-b0655270aedd",
-          "price": 39.99,
-          "quantity": 2
-        },
-        {
-          "name": "Smartwatch",
-          "id": "a417732c-7ca1-43c4-81c0-16242718736d",
-          "price": 199.99,
-          "quantity": 1
-        },
-        {
-          "name": "Portable SSD",
-          "id": "ddb997a5-7ee5-40a1-8116-7cac299be041",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "f0e249fe-2ddc-45ff-a291-cdef300067ea",
-          "price": 49.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "fadb6418-4e3f-4cf5-8dad-f2caa03ee531",
-          "price": 79.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "0819d088-313f-4244-8865-c3ffaa6671c3",
-      "reason": "Damaged item",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 129.99,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Mechanical Keyboard",
-          "id": "b28a5159-04df-4331-b437-40e96059b233",
-          "price": 129.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "c78a66fa-71b9-4201-937e-ee87768d4af0",
-      "reason": "Refund request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 269.97,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Bluetooth Speaker",
-          "id": "34a7f9dc-3d75-4181-a3d3-486b52a50c3e",
-          "price": 89.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "a29d5294-6bb9-4431-aefa-3a7f952efe49",
-      "reason": "Exchange request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 149.96,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "USB-C Hub",
-          "id": "5a83ca63-0fd9-4fd2-8878-0d2bdc07cf0b",
-          "price": 39.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "b6682619-5c26-4772-846f-78e82917e0f2",
-          "price": 19.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "872c5416-1393-4de5-a08f-d82b319a4dc8",
-          "price": 49.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "4f784f6e-ae95-4513-891e-4a562bfdde68",
-      "reason": "Damaged item",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 269.95,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "b09f863e-d209-49c4-8b05-9a39b8781c72",
-          "price": 29.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "8fe7e35a-1055-4216-92db-0c3e149fd448",
-          "price": 89.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "1de3d690-70a8-435c-8be2-4b245a554454",
-      "reason": "Refund request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 369.95,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "6c93bdce-ae03-40a4-a9e4-5cccac66b1ee",
-          "price": 149.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "ca5e7cbd-cbcc-46f1-a666-1b43fd75da1a",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "bed08aa2-5b58-4b43-a7cf-4db41a9ca580",
-          "price": 29.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "19c17dd8-f895-4c6a-9004-c4fc53310b36",
-      "reason": "Damaged item",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 889.91,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "872da85c-6de7-47a1-ada1-e0b67c0def56",
-          "price": 149.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "3f675d99-1e45-4a18-8b87-317868791c37",
-          "price": 49.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "63bf0bb3-7139-4cdd-84fb-597d8e644dbe",
-          "price": 39.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "cacdd312-9bfb-4033-b094-28a6f5a4abed",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "47d4d521-30b4-4664-85c7-22b78fc223fd",
-          "price": 29.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "be500007-bf32-4656-9e80-af210f41ba2d",
-      "reason": "Exchange request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 1089.92,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Mechanical Keyboard",
-          "id": "82593ad5-862e-446b-9a80-f42e618925f4",
-          "price": 129.99,
-          "quantity": 1
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "d77a5728-5d14-4519-b911-229494758a86",
-          "price": 249.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "39063520-f546-4ce7-b858-1d2d58399d9a",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "61b9f593-99af-4890-ac71-fe2cdcb54c0c",
-          "price": 39.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "deba3d93-9e79-4f2c-96e0-ced79565507e",
-      "reason": "Refund request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 209.97,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "f094f33e-536b-4f53-ad8c-3a7d2f705787",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "9bed05a4-2930-49e2-be28-886e5e939415",
-          "price": 29.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "1ebf5524-0a96-4f1c-9863-c54ba42f6d4b",
-      "reason": "Refund request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 79.99,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "faa48a2c-19e9-40ae-b118-9da62ba370ed",
-          "price": 79.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "6fc5669a-eedf-422b-bd1d-f009b8193fab",
-      "reason": "Exchange request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 389.92,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "5c05c6bf-8522-4bb7-85b3-ec297bd94942",
-          "price": 19.99,
-          "quantity": 3
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "683877e7-10ca-4f22-b6c5-949ec81e0297",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "208f5abf-f789-44bc-b920-4a918119f231",
-          "price": 89.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "a646db57-e835-404a-9ba9-6af07488963f",
-      "reason": "Exchange request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 199.99,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "275ce4af-4ee9-4754-b482-3399ded14e32",
-          "price": 199.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "4f4dc8ce-9772-44e7-97f7-2b901ebda0e3",
-      "reason": "Refund request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 149.99,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "6724ed0e-2986-4666-a317-9ac2e31d129f",
-          "price": 149.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "1115d534-9f3b-4e62-9142-5ffbc782a460",
-      "reason": "Damaged item",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 129.95,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "eb8339a6-2586-4757-9d7f-4b66be1dd2dd",
-          "price": 29.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "c0f90d87-31b6-43d6-9a40-eee57a751847",
-          "price": 19.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "9a80670c-3c22-4b45-8756-9c286ba9d040",
-      "reason": "Wrong product",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 399.96,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Keyboard",
-          "id": "1f36cf86-0784-4efb-94e0-1c88eb64bd45",
-          "price": 49.99,
-          "quantity": 2
-        },
-        {
-          "name": "Portable SSD",
-          "id": "1dadafd2-3f2d-4764-9ac6-2035494a35e9",
-          "price": 149.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "f7fa7245-9e1c-468a-a569-337a19a198fb",
-      "reason": "Refund request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 449.95,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "d2eb3a3a-172a-4cfe-a0d2-6452dbcab990",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "b80bc0d7-a8c7-44d4-a642-1355c1df1246",
-          "price": 129.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "0a1c9708-4c9e-4bce-89c2-7c65b61b51af",
-      "reason": "Damaged item",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 89.97,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "2fc16fac-362f-421c-acd2-74d82d26c2fc",
-          "price": 29.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "6a3411d7-7dd9-4edb-ad4e-b136a0db35f3",
-      "reason": "Exchange request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 1219.89,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "311cb034-2501-4e43-9722-414224db8025",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "f70959fe-557f-4462-bc14-e31c7b7ef483",
-          "price": 49.99,
-          "quantity": 3
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "43763318-a570-4855-bafb-33748d4806ef",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "526ac8fa-49ce-467a-9984-ef1e69f14585",
-          "price": 79.99,
-          "quantity": 2
-        },
-        {
-          "name": "Smartwatch",
-          "id": "d52c703c-5fb9-4b3a-83a1-8c5786078290",
-          "price": 199.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "7a335dfb-86dd-4e2d-9ec3-b574215c8ca7",
-      "reason": "Damaged item",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 1019.93,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "be18e5ae-5c58-44f5-9995-9a8fc826bdc7",
-          "price": 149.99,
-          "quantity": 3
-        },
-        {
-          "name": "Smartwatch",
-          "id": "fdc4cfd0-8a17-4e8a-896d-e0cd8dfcd212",
-          "price": 199.99,
-          "quantity": 1
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "ee715be3-20b0-4dfb-9c45-982bbde6b78a",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "6518e5fd-c014-4fde-a22a-596bf1430c5d",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "b1346ea8-9c1f-4a67-9a1d-7fedfb19ecda",
-          "price": 29.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "4c9a29e7-2333-4977-b9a2-a660b39432f4",
-      "reason": "Exchange request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 79.97,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "9f826930-ab36-4fa0-876a-3c124ce12fcc",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "9b6970a5-ad8b-42c0-969f-746205d331a9",
-          "price": 19.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "214a5e3c-29c0-4633-950e-8a0c7748cba0",
-      "reason": "Refund request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 439.94,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "4d860d33-69b5-4315-84a9-ea009bdce6ad",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "7682523e-b5e4-4b5e-a607-12cf9b720dc8",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "4063d6bd-33fe-403a-b6dd-54b6b47e9c61",
-          "price": 49.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "4f3f0eae-01e9-41e1-b3bb-6fb0955eec75",
-          "price": 39.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "39644dc7-f833-4406-b079-8ce4da10fff2",
-      "reason": "Exchange request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 829.91,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Bluetooth Speaker",
-          "id": "eab5476f-fecc-4d74-87f4-e320c6082b85",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "b90355f1-7e84-4f58-b9ca-687c84c3b0df",
-          "price": 49.99,
-          "quantity": 3
-        },
-        {
-          "name": "Portable SSD",
-          "id": "27fa1dbf-7437-4639-9d97-fab6f47b29d6",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "ef36573d-d7fa-4fbd-9b8b-0fad1c80b4ae",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Smartwatch",
-          "id": "0a6ebead-bf05-43eb-86cf-caffddcf375d",
-          "price": 199.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "d90f2aee-8cab-4308-a46f-cad8441b5216",
-      "reason": "Customer request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 529.95,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "USB-C Hub",
-          "id": "4e57bcc1-cdab-43e3-beb9-0d324a514355",
-          "price": 39.99,
-          "quantity": 2
-        },
-        {
-          "name": "Portable SSD",
-          "id": "e89013e9-4168-4a59-a9bc-bd22840b5b82",
-          "price": 149.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "c9b97fc3-745c-4862-924f-df76ae1b809c",
-      "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 469.96,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "9b2fe833-6d55-47c4-8606-122c6c6c3da1",
-          "price": 19.99,
-          "quantity": 1
-        },
-        {
-          "name": "Portable SSD",
-          "id": "9464e608-c5cc-4ea7-9538-23c8ce6d7488",
-          "price": 149.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "7d88639f-beee-4ea8-aa55-8a951c906863",
-      "reason": "Refund request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 469.96,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "97c70016-fcf0-4370-a066-a84a65944fd3",
-          "price": 19.99,
-          "quantity": 1
-        },
-        {
-          "name": "Portable SSD",
-          "id": "bbe9dbfe-3bde-4c27-959d-268ce6ff8b10",
-          "price": 149.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "7619e5dc-cc26-4bb6-bec2-8da4b5f2467b",
-      "reason": "Damaged item",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 249.99,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "5c328a97-b247-40f3-97a7-a0c2015be38e",
-          "price": 249.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "2a19ca5d-c46b-4463-af5c-7987a4635106",
-      "reason": "Refund request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 199.99,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "b474cfd8-edd7-411b-9f47-494bb46515c7",
-          "price": 199.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "96ed34a3-3b2b-4c20-8442-28662f01cf9c",
-      "reason": "Customer request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 339.96,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "30446ef9-a3ce-4a21-be19-9ed30548b27b",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "81ffbab8-a5cf-4964-aa90-b3b2a1f26dca",
-          "price": 29.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "89a2b7e3-fe9f-4b4e-92e1-4cb415dc1eef",
-      "reason": "Exchange request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 1129.89,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Mechanical Keyboard",
-          "id": "5e6e4645-0ae7-41d8-829d-fabe0d48b686",
-          "price": 129.99,
-          "quantity": 3
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "864349e7-1b2e-4b52-961c-11bc81a8dac2",
-          "price": 39.99,
-          "quantity": 3
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "1ffae52b-e34c-4a1f-aae5-bd213c626607",
-          "price": 249.99,
-          "quantity": 2
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "d97e7551-cad5-4366-ac0f-2421c7a136f4",
-          "price": 79.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "a2717440-d975-4134-9dcb-9aff647f81ea",
-          "price": 19.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "524599fc-b94d-4fed-9f1a-efd11710a3db",
-      "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 189.94,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "37417758-90ce-49f0-90aa-7c47a34d1f5e",
-          "price": 29.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "fb4914a0-39e3-4fd8-a857-34a176db5c95",
-          "price": 19.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "7f650970-dcd4-419c-b41b-961308dd7371",
-          "price": 39.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "984077cb-fc60-4214-b034-6c517adc0fc6",
-      "reason": "Wrong product",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 569.93,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Mechanical Keyboard",
-          "id": "59020806-de06-4b21-8cc5-faecd7ea59e5",
-          "price": 129.99,
-          "quantity": 1
-        },
-        {
-          "name": "Smartwatch",
-          "id": "bfbab968-da72-42f5-84fc-da91a17675c3",
-          "price": 199.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "4167d448-9de1-4190-b7cd-35295efd572b",
-          "price": 19.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "73438514-48c6-4ea3-a1f4-904714f681d6",
-          "price": 89.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "acf07b78-7fd4-494e-8388-b78a6efc39c2",
-      "reason": "Wrong product",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 669.94,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "8f86e47b-609d-422f-9090-a96e55efa825",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "3d7c10eb-e19e-4790-a68c-28cce4d2ba50",
-          "price": 89.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "8b274768-4915-4399-9e52-4dd6d7f41f55",
-          "price": 249.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "afd0b712-1ab0-4e2c-9d1c-6e59e9e7263b",
-      "reason": "Exchange request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 499.95,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "0f4c816d-6e3d-42a0-811b-1e733e508995",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "755b0426-fabf-44df-abb2-3634f1315e4b",
-          "price": 129.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "93fad89f-36ed-4e33-bc6e-3135fc4ac3a6",
-      "reason": "Wrong product",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 149.99,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "78d75c6b-e6d8-4a52-83c9-31844b766cfc",
-          "price": 149.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "f9a29931-ef9f-4a1f-9888-709103796b2d",
-      "reason": "Exchange request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 619.95,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "1c32e7e0-7144-4d4e-a7c6-cb56af0ca418",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "90a87d01-03f2-4521-a505-bda95b6f6ac5",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "38d7d227-a7fc-4d91-9912-9af6efb05d64",
-          "price": 49.99,
-          "quantity": 1
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "e367f5f3-fa44-42c9-af15-2080c83fc1a6",
-          "price": 129.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "55aaa699-69e2-4d19-8b39-d001b109d7b4",
-          "price": 39.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "7dfd4838-fd28-4839-a571-bd1221b577e9",
+      "id": "58151691-13c7-4cf8-a034-62dfed59c8ed",
       "reason": "Customer request",
       "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://smartshop.com",
-      "amount": 919.91,
-      "active": false,
+      "amount": 479.96,
+      "active": true,
       "decision": null,
       "Items": [
         {
-          "name": "USB-C Hub",
-          "id": "ed57b805-907a-490a-a69c-8609a3cf9c16",
-          "price": 39.99,
-          "quantity": 2
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "e8eec33f-5aa7-41f2-af8b-b26c9b46fade",
-          "price": 79.99,
+          "name": "Portable SSD",
+          "id": "089e7499-e0cc-4565-b486-9a41a18f7f11",
+          "price": 149.99,
           "quantity": 3
         },
         {
-          "name": "Wireless Keyboard",
-          "id": "637391cf-ddfe-4448-b0a2-448e3a5e80e3",
-          "price": 49.99,
+          "name": "Laptop Stand",
+          "id": "0c48f942-30c7-49e5-8237-87655049cc9a",
+          "price": 29.99,
           "quantity": 1
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "7cac7a62-9a77-4199-98be-2253ce6e4882",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Portable SSD",
-          "id": "202f151c-a6a9-410b-be45-3b42b7edaadb",
-          "price": 149.99,
-          "quantity": 2
         }
       ]
     },
     {
-      "Id": "aca916c0-50f4-4cf0-8aac-cc4cf7054218",
-      "reason": "Refund request",
+      "id": "c37af713-4f07-48d8-91cb-ad4b769dad02",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 1879.86,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "df00f00a-bf5a-40f1-8148-16461d887b66",
+          "price": 249.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "b3706d31-7144-40fb-9f8a-cf08f64074a5",
+          "price": 39.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "c39a0c98-9c24-4e86-8c30-418fde7dbaf0",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "a40e8a7a-f5be-4c93-81a2-f4ce65b38762",
+          "price": 129.99,
+          "quantity": 3
+        },
+        {
+          "name": "Smartwatch",
+          "id": "83cb9dd6-f660-4605-8f79-f1634ee43edd",
+          "price": 199.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "8c0f2286-4cff-4484-922f-ba8a6bea68ad",
+      "reason": "Wrong product",
       "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://electromart.com",
       "amount": 419.95,
       "active": true,
       "decision": null,
       "Items": [
         {
-          "name": "Bluetooth Speaker",
-          "id": "7644edf1-5106-4b53-89f6-4a5e076dc412",
-          "price": 89.99,
-          "quantity": 2
-        },
-        {
           "name": "Gaming Mouse",
-          "id": "63dcfd7c-2225-4502-8c12-cafb77d5a4b8",
-          "price": 79.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "b72e171e-9896-4d8e-be1b-0f5c4d16c93c",
-      "reason": "Wrong product",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 869.91,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "3e2101eb-17fb-44d0-9dfb-2aef87d0a7f0",
-          "price": 79.99,
-          "quantity": 2
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "4d2a74c0-3e82-40c3-928e-2aef7398d73d",
-          "price": 89.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "addf6b79-aca7-4941-a10e-7621a8c47db3",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "Smartwatch",
-          "id": "dc48e9ed-fcc4-4c04-8011-62c745826525",
-          "price": 199.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "a59fa785-648d-464a-a092-5ba87f7e481f",
-      "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 799.93,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "235e3fbb-6914-4596-83ef-38d4c1393ac6",
+          "id": "1b4bc7f1-6975-4ddd-b871-d87fb7ec3f5e",
           "price": 79.99,
           "quantity": 1
         },
         {
           "name": "Portable SSD",
-          "id": "da057ca5-e51b-4422-9f1c-8a363c4c77f4",
+          "id": "61aedd06-8ed9-4f2e-8f64-8dbf9d038331",
+          "price": 149.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "4e0a0fc2-da6f-40a5-b4dc-633abba2a177",
+          "price": 19.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "9c81b922-f1cc-4054-bbed-f54ffed6cd6d",
+      "reason": "Customer request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 559.95,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "0d6d1603-765b-4ab6-bd5f-758ca537e06f",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "2cc5915b-17bd-4c0f-bbee-075b0b531174",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "4e435b04-0130-4481-869b-b336f01c7d0c",
+          "price": 249.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "8a6f414f-bc8a-4657-bc55-3b1621314f55",
+      "reason": "Damaged item",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 419.93,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "97205877-c873-4d6c-b809-972a2ddbd4cc",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "22a2e7b3-ecb9-4a01-8f1a-8480490b4bda",
+          "price": 79.99,
+          "quantity": 3
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "270d1a86-51d3-4aac-b31b-f5298bd7cec3",
+          "price": 29.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "03c520e2-0ec4-47ef-bcd7-f78764240d00",
+      "reason": "Wrong product",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 1479.91,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "b64b2908-6833-4d53-b0d2-43de14f18a54",
+          "price": 149.99,
+          "quantity": 1
+        },
+        {
+          "name": "Smartwatch",
+          "id": "a7a51715-1497-4f07-89db-78355761fb45",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "fb0f3ec7-c99d-4205-bd90-479aa2ea8623",
+          "price": 249.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "3b1f445c-01d1-4d7d-8e1b-d00c196c7120",
+          "price": 49.99,
+          "quantity": 1
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ee868d69-2a5c-4901-a180-a351c75b4991",
+          "price": 89.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "ef99f715-9ca5-466a-aefe-abd1eaa693cc",
+      "reason": "Customer request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 99.98,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Keyboard",
+          "id": "34a25812-f991-4988-9af8-fc1d2db49ed5",
+          "price": 49.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "2368ca71-9bf2-47bc-a9d6-0deb81b12111",
+      "reason": "Exchange request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 229.95,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "da4966c6-762f-46ce-88d2-3a234d86c8fe",
+          "price": 39.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "e76fb9f3-d1e8-404a-ab6c-80db3ee2c33c",
+          "price": 49.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "e7d1ec1a-f71d-428c-a9a1-bdaf7196c550",
+      "reason": "Refund request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 1189.87,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "3385ef17-a8a0-4bc6-9d78-444c2a78a073",
           "price": 149.99,
           "quantity": 3
         },
         {
           "name": "Bluetooth Speaker",
-          "id": "4494ddc1-b737-4d18-972d-07e6350188f5",
+          "id": "25fc94fc-bfb2-4a9f-be29-b180db8bf909",
+          "price": 89.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "804f4d74-546d-49b7-9237-9d7f41fe2895",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "53bfe84a-d9b8-4103-8bad-c5b5a799b9bd",
+          "price": 79.99,
+          "quantity": 3
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "90fbfeb2-4ba2-49da-9cf7-382c65f00b87",
+          "price": 129.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "4913fae5-bc70-49f0-9ee4-7ad580b882f5",
+      "reason": "Wrong product",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 59.97,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "ee6f4dcb-c053-4711-ab44-cead8e808ee6",
+          "price": 19.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "a58f287a-61cd-40ea-b12e-b5b585d81dbc",
+      "reason": "Refund request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 569.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "c6eaa256-2eb7-4757-8c83-a35ca4fc1cf0",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "3f48fb2f-4eeb-40c5-a04a-fb428372b452",
+          "price": 39.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "0889bc51-f0b4-42a7-88bf-21325d0b952a",
+      "reason": "Customer request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 489.96,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "27264cda-fb3f-42be-b906-4172813a9ce8",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "25fb0287-2367-446d-8c0b-5e9f8cadecc0",
+          "price": 149.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "0e682d55-deae-4558-a9be-ed37e9801b73",
+      "reason": "Wrong product",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 919.88,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "2ffa8d50-ecd5-4aca-a01d-b6c9e32d52b7",
+          "price": 39.99,
+          "quantity": 2
+        },
+        {
+          "name": "Portable SSD",
+          "id": "cc42c093-59e2-4a3a-8113-a243f404e21a",
+          "price": 149.99,
+          "quantity": 1
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "754c5745-53ff-464f-a3a6-74d0e5b96786",
+          "price": 79.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "2d34f0bc-25d2-489f-bf05-5210aea8aa86",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "8cd3999f-6944-4e65-9edb-78039432ccd1",
+          "price": 129.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "af47945e-5a67-414a-a310-0e84ed93a971",
+      "reason": "Exchange request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 1019.89,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Smartwatch",
+          "id": "f0e71627-48e7-4a28-b3e2-035eef2b1409",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "612db098-cac3-4483-bd17-7796b6893501",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "3ffc2b6e-0a67-4741-bf17-dd04f8eebc8b",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "36dbfa3e-092c-43e0-8450-49f7344eb12e",
+          "price": 129.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "234231c4-949e-4323-b455-f3ba5e4da4d0",
+          "price": 39.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "c8f0f4e4-2501-43a7-9eba-5a28f5f821fe",
+      "reason": "Exchange request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 659.89,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "d7bc20d1-0f42-4ef6-8205-5452eb7f40c3",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "9c01cff5-ca22-4478-b1b7-0e0c14feda02",
+          "price": 129.99,
+          "quantity": 2
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "b82af8ca-eaa7-4c1f-aed2-73d1fff09dc0",
+          "price": 29.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "e404fc15-80e6-4675-8e4c-d9c3cd66be4b",
+          "price": 39.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "41217eea-cd5e-462f-8233-f4be28d44c28",
+          "price": 49.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "cc0cc34d-eb7e-48b1-bedf-247c15ffd1dc",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 569.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Smartwatch",
+          "id": "50458788-d67c-4eb9-acce-21dea4308e41",
+          "price": 199.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "eea6683c-18c8-4255-b29f-0a56df977542",
+          "price": 49.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "02fbb919-2f8e-48f8-82c9-27b90cd7ab4a",
+          "price": 19.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2e96b3d4-f7b4-4b50-97b1-f9c1830ff190",
+      "reason": "Customer request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 669.89,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Mechanical Keyboard",
+          "id": "d65354e4-1766-48bd-a6c8-34ae86f72886",
+          "price": 129.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "02b31312-aa00-4686-9e93-6536bc162956",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "4c45ef2c-bbc4-4a73-9630-2917ce04d137",
+          "price": 49.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "d5ad1866-46a4-4c9d-a405-c6ea9a1c1c1e",
+          "price": 39.99,
+          "quantity": 2
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "fb921b3f-cfc6-4dd4-9076-94da0b2b1ae1",
           "price": 89.99,
           "quantity": 3
         }
       ]
     },
     {
-      "Id": "3413c408-6066-4a04-8a06-43d57644e442",
-      "reason": "Refund request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 749.97,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "4f84cb40-0321-4c80-aafd-cba56f4d883f",
-          "price": 249.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "ef88c412-dab9-4076-b6d2-ed3bbedfe3d1",
-      "reason": "Customer request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 1259.9,
+      "id": "2cf3499e-ecf4-42c6-b76f-5a0ea29f5c76",
+      "reason": "Damaged item",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 689.92,
       "active": false,
       "decision": null,
       "Items": [
         {
-          "name": "Mechanical Keyboard",
-          "id": "a1a7fb52-6cdc-4cf8-8ee9-06a73011a1a4",
-          "price": 129.99,
-          "quantity": 2
-        },
-        {
-          "name": "Smartwatch",
-          "id": "48941a82-b0f0-4936-9d92-a67a2d2077bd",
-          "price": 199.99,
+          "name": "Portable SSD",
+          "id": "f80f0fe9-704a-43ae-8afe-d5ea3dca804b",
+          "price": 149.99,
           "quantity": 2
         },
         {
           "name": "USB-C Hub",
-          "id": "157a533d-8311-46e9-99a7-f3108a8c0d5d",
+          "id": "a404d00b-fb45-439c-8a64-74a7559dedc7",
           "price": 39.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "6a8aa8ce-0e87-49a2-8e11-43fa5836be2b",
-          "price": 19.99,
           "quantity": 3
         },
         {
-          "name": "Noise Cancelling Headphones",
-          "id": "8ecdfe1d-5fba-4feb-b9a9-a3322959696b",
-          "price": 249.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "56acb27b-8968-4ff0-b57a-4812eb61d234",
-      "reason": "Wrong product",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 209.97,
-      "active": false,
-      "decision": null,
-      "Items": [
+          "name": "Mechanical Keyboard",
+          "id": "4d76298f-6ff5-4258-a90b-cd589e0a6468",
+          "price": 129.99,
+          "quantity": 1
+        },
         {
-          "name": "Gaming Mouse",
-          "id": "d3c91016-33eb-4bb6-bd1c-43d28d2a6270",
-          "price": 79.99,
-          "quantity": 2
+          "name": "Bluetooth Speaker",
+          "id": "ecc0c415-a426-4396-9648-bb34b07e2efc",
+          "price": 89.99,
+          "quantity": 1
         },
         {
           "name": "Wireless Keyboard",
-          "id": "a024e699-3ce5-45ce-afad-04bed075ce2b",
+          "id": "ce027ad3-cadc-4ba3-a798-c09448d55ac4",
           "price": 49.99,
           "quantity": 1
         }
       ]
     },
     {
-      "Id": "3c7e6457-9806-4af2-9471-e90e429b88e4",
+      "id": "955635a5-fbff-4c6f-bf5d-e8d62e0966e3",
       "reason": "Refund request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 939.93,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "a9d6bef6-2a2f-42de-979a-45a12b2a9b37",
-          "price": 149.99,
-          "quantity": 3
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "48bb92b1-a541-4ce4-9ca8-7075c7a0d2ea",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "b4089ab0-8e44-4447-bfe5-6b8cb739e935",
-          "price": 249.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "14908e4f-743f-4e92-9c90-901b67095e7f",
-      "reason": "Wrong product",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 119.98,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "58e7adce-e167-4217-964e-55f28925dfc2",
-          "price": 79.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "7aee5443-613d-4729-ad43-a63d64ad7090",
-          "price": 39.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "8fe24497-b6bc-4b4a-87c1-e275103da610",
-      "reason": "Customer request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 219.98,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "6f8d9738-a255-472a-bb34-021fd3ab2928",
-          "price": 199.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "5fb970dc-29b3-4b35-b864-947526daec64",
-          "price": 19.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "f9fff4bb-b40f-4c10-83d0-6a2d50d24c58",
-      "reason": "Customer request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 439.93,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "USB-C Hub",
-          "id": "5ba43b9f-12eb-4bfa-b5a9-eb0ed9f0a8ec",
-          "price": 39.99,
-          "quantity": 3
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "a4609908-cb11-4ab0-866a-f53f8b4e2438",
-          "price": 129.99,
-          "quantity": 2
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "1fad4ec2-926b-4137-8b28-6f963560c371",
-          "price": 29.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "55fc020e-11a8-4487-ac58-62db0ea0324e",
-      "reason": "Exchange request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 1039.93,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Mechanical Keyboard",
-          "id": "01fa75d3-dcd9-41cd-b882-2a2c0d8eae7e",
-          "price": 129.99,
-          "quantity": 1
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "1a48fd9a-d2ba-4733-8cc3-ed7d92b311a9",
-          "price": 89.99,
-          "quantity": 2
-        },
-        {
-          "name": "Smartwatch",
-          "id": "3b3902ea-aeea-48f1-9322-ccf1aad16f54",
-          "price": 199.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "7e4e37df-435e-46fb-ad59-cc83daef6d2e",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "81c08daa-91ca-48b8-aae4-d1fda7e0769d",
-          "price": 79.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "fcc82f44-2455-42f5-aa6f-8e9fe155c5ad",
-      "reason": "Damaged item",
       "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://gadgetworld.com",
-      "amount": 809.91,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "7ddfe8e9-d186-43e5-9d8b-3404d5c361d5",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Portable SSD",
-          "id": "c5e58891-d788-4ad1-8ec4-0abad484fd9a",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "67dfa7ea-25b3-4276-bb50-782f7e18f440",
-          "price": 89.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "887a76f0-bf7f-4208-a6a6-3aadf118dd29",
-          "price": 49.99,
-          "quantity": 3
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "de3f8a54-acab-4abc-8337-ab47a245b780",
-          "price": 39.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "9c530513-5775-4880-a14b-c66b9875f488",
-      "reason": "Damaged item",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 629.93,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "6f50b09b-1b51-48cd-9cc7-6e7cdbaf1baf",
-          "price": 199.99,
-          "quantity": 2
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "b550d737-fa15-4ce0-a896-16d869bffcc9",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "a899a992-7bb6-4ad1-8ce4-9e72041b44cb",
-          "price": 39.99,
-          "quantity": 2
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "b2e9beb5-4b65-42d9-8cd3-d35ccb600562",
-          "price": 29.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "2f82737c-448a-403e-a980-cb283055f2ef",
-      "reason": "Damaged item",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 1319.9,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "4a9a7e1b-e387-46e3-8597-f8b3dd31429f",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Smartwatch",
-          "id": "ca5f2263-bf5b-4658-a0ca-791160676699",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "de99754b-a4de-4c9c-90e9-82bc6d431d78",
-          "price": 129.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "de372c27-00a4-445f-9022-fec78a1f10d6",
-          "price": 19.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "f2279bfe-a87a-4fb4-a6d4-6c0eaf340397",
-          "price": 79.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "689b13b0-195b-457c-b398-655915cf1ecd",
-      "reason": "Exchange request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 209.95,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Keyboard",
-          "id": "ee9de901-8c43-4283-9261-c486aeef54d8",
-          "price": 49.99,
-          "quantity": 3
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "c1c683c5-02d2-4109-8597-888a4926b125",
-          "price": 29.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "045ca71c-fafc-432d-be0f-81c908676322",
-      "reason": "Wrong product",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 639.95,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "889efdb8-1673-4f18-89c2-8d61f085613d",
-          "price": 199.99,
-          "quantity": 2
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "dcb336ae-4e81-4474-91fc-fad6d98898a8",
-          "price": 79.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "df1e0adb-a5d0-4ea3-a63f-1a4b47ee9faf",
-      "reason": "Exchange request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 1009.91,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "f0479695-da0b-4512-bcbc-55f919ca5ffd",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "ce7969f6-c90a-4199-b7b6-37098448ab93",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "a2563091-5e62-4b0c-906d-33d51b613821",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "7d451ef2-ee4a-4325-85c8-1f53586de041",
-          "price": 39.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "b4b70ec0-ee5d-43b9-9dec-b3b6015e3d2c",
-      "reason": "Refund request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 849.94,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "fc207e93-8640-4453-b9b8-ea02541971cc",
-          "price": 199.99,
-          "quantity": 2
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "6baa067d-4237-4b1c-a065-704326492313",
-          "price": 129.99,
-          "quantity": 1
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "55dc80e2-8610-4bd9-8815-26891199f1a1",
-          "price": 29.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "31e712a0-2212-45e1-addb-7bd2039e8321",
-          "price": 39.99,
-          "quantity": 1
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "7f8fe417-b789-4e40-a75a-bede837de2cd",
-          "price": 249.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "898c7e43-ec6a-4a7f-9228-78d160ce4e6a",
-      "reason": "Exchange request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 779.92,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "5422798f-675e-4243-a5f8-3f72b8d8d693",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "2db505ad-b4d5-4299-b08f-5993af4cf206",
-          "price": 89.99,
-          "quantity": 2
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "03323dab-642f-456a-9e97-9a3d070b11e9",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "fa1f577c-55c8-47da-9f77-0883e88b5774",
-          "price": 249.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "17ac95aa-07d4-490f-86d0-8a4af4a25bdd",
-      "reason": "Exchange request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 579.96,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "c4af634c-640a-43cc-8a2d-782d73968faf",
-          "price": 199.99,
-          "quantity": 2
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "105706a7-2745-4401-8777-ac4b3c6af348",
-          "price": 89.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "c8f6f48a-b740-4c29-9ebd-f88630c6263c",
-      "reason": "Refund request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
       "amount": 239.97,
       "active": false,
       "decision": null,
       "Items": [
         {
           "name": "Gaming Mouse",
-          "id": "057ff371-daa2-438b-8035-dc61e990bc15",
+          "id": "c6bdd1e1-bbeb-4d08-8eb7-913284a2c7e8",
           "price": 79.99,
           "quantity": 3
         }
       ]
     },
     {
-      "Id": "51d75b16-3719-4faa-b8f1-e6c040ae8845",
-      "reason": "Exchange request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 779.93,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Bluetooth Speaker",
-          "id": "9681a077-4fea-40ad-aa1d-86bff8c68d16",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "605ca196-3798-4942-8c57-355a61f6786a",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "b915a963-e831-4c32-9b27-dfe81b574fad",
-          "price": 19.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "4f607fd3-8614-4b66-88df-cd2a6e60c822",
-          "price": 79.99,
-          "quantity": 2
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "6d8a6d17-c3af-4038-aa16-51c0752abe84",
-          "price": 129.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "7d55f2e2-04f8-4a19-bb6f-871764dcd414",
-      "reason": "Refund request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 529.94,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Mechanical Keyboard",
-          "id": "d48df1af-7c26-4e06-9c46-a091033939ea",
-          "price": 129.99,
-          "quantity": 3
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "b80693b1-2798-4b4a-a5f2-0ff543ce9868",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "1e4c4e3b-7143-4adf-8584-f7f25089864b",
-          "price": 79.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "7871116d-4795-4cd8-881f-c6e6800b8d6b",
-      "reason": "Wrong product",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 969.93,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "58b5b515-0ba2-4cd9-a64b-9ea29ea4dd1a",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "64cd3419-43e3-4b0f-b5b4-cf26c63100c8",
-          "price": 129.99,
-          "quantity": 1
-        },
-        {
-          "name": "Smartwatch",
-          "id": "09345d71-ec52-4432-bc72-010590a304d7",
-          "price": 199.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "51652d4e-6375-4b45-ab56-3aeabea171b1",
-      "reason": "Customer request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 1409.89,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "cc2d026d-3575-4919-8330-7dc03774bbf5",
-          "price": 29.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "288f42b9-5fb6-4470-924c-6540b4a5e56b",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "9234cae2-0be5-4129-95a9-628f51daa645",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "3dca1f21-9347-45e5-8d4c-00290c48f04c",
-          "price": 129.99,
-          "quantity": 2
-        },
-        {
-          "name": "Smartwatch",
-          "id": "c068d867-e12c-401b-ae5c-059914144bc8",
-          "price": 199.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "19239567-e9a3-412d-9530-ff737d0f013f",
-      "reason": "Customer request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 109.98,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "890e9f1c-f349-4de3-abfc-879096740034",
-          "price": 79.99,
-          "quantity": 1
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "2b2488c5-6a3d-41c1-91d3-93637fa1539f",
-          "price": 29.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "36e485fa-38c5-4821-a92b-4c9738ee9afa",
-      "reason": "Damaged item",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 599.97,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "5b1c70cc-c03f-4802-a8e4-ddf5389c29a3",
-          "price": 199.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "254c4257-5c68-4741-9b98-1661cb58786e",
-      "reason": "Customer request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 89.97,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "4f833211-4190-4aab-8de5-db183cbac796",
-          "price": 29.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "7d3acd9b-283a-46bd-9ba6-d8c1dba342d0",
-      "reason": "Exchange request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 79.99,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "445b2bf5-1da9-47ac-8e8a-1b71b8b8fe39",
-          "price": 79.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "06fd9d17-9b75-420c-bec6-51a95fa91a28",
-      "reason": "Customer request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 1019.88,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Keyboard",
-          "id": "d0e5c4e5-6a85-441f-8c89-1092f591f4cc",
-          "price": 49.99,
-          "quantity": 3
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "b47ddb6c-0456-4fe8-ad1e-2457f32f82f6",
-          "price": 29.99,
-          "quantity": 1
-        },
-        {
-          "name": "Smartwatch",
-          "id": "f6ac0ca6-d376-4b5c-af02-1df2d3ed2803",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "4e751489-03de-4be9-9c0b-9b31aa9f1c56",
-          "price": 19.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "84c0f291-b049-4c80-a5a6-98fb8adc026f",
-          "price": 89.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "a48eff0a-c446-4128-9e6a-c7703ffd0565",
-      "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 279.98,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "041ea1d7-5bd8-4b10-9f99-e4d572a55436",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "1d94c7e9-b852-4543-9a27-7ca873eda5b0",
-          "price": 129.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "fb708c52-d3e2-46bf-bc11-905c551e64b6",
-      "reason": "Customer request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 19.99,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "e74e46b1-b038-4442-b728-6fdb14189d2d",
-          "price": 19.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "fc6416f8-079a-4309-b361-48abd694b29e",
+      "id": "f5a42906-f88e-43c1-845b-5e4e642e2b57",
       "reason": "Exchange request",
       "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://digitalhub.com",
-      "amount": 139.96,
+      "amount": 1049.88,
       "active": true,
       "decision": null,
       "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "356ceed7-c296-4d54-83eb-2f03a0f85548",
-          "price": 19.99,
-          "quantity": 3
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "f57622f9-5827-4ec2-8e3c-5669d65a59e9",
-          "price": 79.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "4cb37827-cbc5-4d13-abcc-d0547411e97c",
-      "reason": "Refund request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 799.91,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "b18ffc7f-5509-4d49-ad2d-c8c54ca1c254",
-          "price": 19.99,
-          "quantity": 2
-        },
         {
           "name": "USB-C Hub",
-          "id": "2a391194-936f-448d-b44e-9e9829bbde07",
+          "id": "83e624e7-bc00-44d4-adad-6c1f6cf0cbc4",
           "price": 39.99,
-          "quantity": 2
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "61f3129a-e7d0-4ce2-afd5-66d212c14f56",
+          "price": 89.99,
+          "quantity": 3
         },
         {
           "name": "Smartwatch",
-          "id": "b29c7a64-a9ef-4a1c-a54a-db4be56242ef",
+          "id": "e0f585dc-c0ca-4dec-8d71-1d4fa12106e7",
           "price": 199.99,
           "quantity": 3
         },
         {
-          "name": "Laptop Stand",
-          "id": "c4b45cc0-4111-4206-91d8-94d6cdbd051e",
-          "price": 29.99,
+          "name": "Wireless Charger",
+          "id": "b5698ed6-8099-4c7b-9ac8-cc82b3079dc2",
+          "price": 19.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "832c388e-e04d-4261-b6c5-78df9b61f64b",
+      "reason": "Exchange request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 959.9,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "2649be93-b559-4056-a587-052ec680870f",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Smartwatch",
+          "id": "b8b32887-f868-40d3-acfb-754e334f3c49",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "9be99785-887f-45ea-9373-c5f316e94b7b",
+          "price": 89.99,
           "quantity": 1
         },
         {
           "name": "Wireless Keyboard",
-          "id": "2a20093d-c777-46cc-be72-30aedeb41139",
+          "id": "7e00fc09-0b7a-4e14-8f98-764a4a22be7a",
           "price": 49.99,
           "quantity": 1
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "7f6ef176-c9b8-424c-8475-82146ebcdb78",
+          "price": 79.99,
+          "quantity": 2
         }
       ]
     },
     {
-      "Id": "4f3b7a03-78c1-4ceb-ac1e-e32654d3d15a",
-      "reason": "Refund request",
+      "id": "c383a957-7483-4ca7-af58-204bbc274175",
+      "reason": "Exchange request",
       "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://electromart.com",
-      "amount": 699.94,
+      "amount": 849.89,
       "active": false,
       "decision": null,
       "Items": [
         {
           "name": "Portable SSD",
-          "id": "b500489f-4d22-40fb-bdae-3f6e4288f94f",
+          "id": "0d5d2285-23e3-4759-947c-f67c3a9d099e",
           "price": 149.99,
-          "quantity": 2
+          "quantity": 1
         },
         {
           "name": "Wireless Charger",
-          "id": "24e17943-4b69-4345-8426-bc2506bcfa24",
+          "id": "eb2c85ac-915e-4451-8edf-29fffff3d6ae",
           "price": 19.99,
-          "quantity": 1
+          "quantity": 3
         },
-        {
-          "name": "Smartwatch",
-          "id": "97bd5e46-45e0-45e4-bef5-53582b46856c",
-          "price": 199.99,
-          "quantity": 1
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "8e57d6d9-b34c-41e2-b72c-d5f6c6ec6b3a",
-          "price": 89.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "5213657e-2edd-475d-b891-2d9eb09237dc",
-      "reason": "Wrong product",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 959.88,
-      "active": false,
-      "decision": null,
-      "Items": [
         {
           "name": "Gaming Mouse",
-          "id": "74087b1d-7a54-4712-bb86-3e0034093187",
+          "id": "f89c81c8-f403-4129-a781-f57daaf86beb",
           "price": 79.99,
           "quantity": 3
         },
         {
-          "name": "Wireless Charger",
-          "id": "a8dff11c-34e0-4310-9a55-746849e2f00d",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "7b2dddc7-ce50-4df7-85b0-a8c97a518590",
-          "price": 129.99,
-          "quantity": 2
-        },
-        {
-          "name": "Portable SSD",
-          "id": "4ee772a3-e7fe-4dfc-9783-9ea00799ad28",
-          "price": 149.99,
-          "quantity": 2
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "a9ba2b13-6b12-4647-8fdd-69cf51bc1b9f",
-          "price": 39.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "a745a87f-a00b-4323-a87e-c0403d03be98",
-      "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 39.99,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "USB-C Hub",
-          "id": "a9caa8d9-c770-458d-be25-e8a1bd151c60",
-          "price": 39.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "51357123-1777-4df0-8b97-3bf9c3ab480e",
-      "reason": "Exchange request",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 1469.89,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "bc69ce0d-bf57-4990-b696-900bb9c330e5",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "266f3b99-131e-458e-a187-ecec4618b082",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "Smartwatch",
-          "id": "e217a7fe-8d92-441b-b7af-0195a5064c04",
-          "price": 199.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "88836bd6-219b-40fd-9daf-74c20c1dfcd1",
-          "price": 89.99,
-          "quantity": 1
-        },
-        {
           "name": "Noise Cancelling Headphones",
-          "id": "0bc9b032-55a2-4798-a41a-d393faf8a772",
+          "id": "4560f8bd-45b0-49cf-bae4-db1f594c9ab8",
           "price": 249.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "36991726-b1ad-4a01-aea9-10662f3eb0fa",
-      "reason": "Customer request",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 79.97,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "8bdc523b-7c91-4366-b542-10dd2fe1a8c4",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "b7942fc1-00e9-46bd-b0f2-cec745201fd8",
-          "price": 39.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "f878ec19-4cc4-46af-83bd-49ec264f3805",
-      "reason": "Exchange request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 539.93,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Portable SSD",
-          "id": "233f0bb4-f039-4997-a649-80328785c82a",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "7a5c4dd4-6a16-4fec-a494-839141d1f0ea",
-          "price": 39.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "7629a145-d9c0-4eee-9cd4-62e5aa797d2a",
-          "price": 89.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "6118a2d8-ceaa-4c23-a922-7a64e4d32f31",
-      "reason": "Exchange request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 869.94,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "bf3b5076-260b-4f06-a156-306a95d22069",
-          "price": 249.99,
-          "quantity": 3
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "25aa3daf-f89b-44e3-acbb-56a3670a47ec",
-          "price": 39.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "e70b9114-2cbf-41d5-9c4e-e94cece815b0",
-      "reason": "Wrong product",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 639.91,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "USB-C Hub",
-          "id": "800b936d-9455-424a-852e-0be335bfc226",
-          "price": 39.99,
-          "quantity": 3
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "9ea67d88-edaa-4ad8-a6f9-0085c3a1b4f8",
-          "price": 89.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "7c328451-f138-47cb-b085-81ed27cb713d",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "Portable SSD",
-          "id": "879c64c4-15e9-4bdc-97ed-35a866061dd4",
-          "price": 149.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "25c12dfa-857c-49cd-91b1-aef1f87cbe06",
-      "reason": "Refund request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 1389.91,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Smartwatch",
-          "id": "8de911cb-5889-423e-b20f-e6297b3e453b",
-          "price": 199.99,
-          "quantity": 2
-        },
-        {
-          "name": "Portable SSD",
-          "id": "d6cfe47a-4d39-4d70-ba90-d4b2f2734fed",
-          "price": 149.99,
-          "quantity": 2
-        },
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "5a1cbd4f-cf11-488f-b06b-db99df9a7234",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "52fd0298-c723-4aa1-9017-22a429c88bf6",
-          "price": 129.99,
-          "quantity": 2
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "d829598e-5f50-4e39-91b8-735f7a438de5",
-          "price": 89.99,
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "Id": "1d5460c7-5fc4-4327-8d9f-2300a6a999b9",
-      "reason": "Exchange request",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 309.96,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Noise Cancelling Headphones",
-          "id": "402dd05d-b9d2-471b-885b-f414ffeb68cd",
-          "price": 249.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "e9afdb5a-fb94-42db-b47b-9f47a76a06a4",
-          "price": 19.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "ab8a5f84-1880-465e-8c9e-3b694e446cfc",
-      "reason": "Exchange request",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 719.93,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Laptop Stand",
-          "id": "73c0dd11-9c90-4037-93b7-bfbea7ff7aaf",
-          "price": 29.99,
           "quantity": 1
         },
         {
           "name": "Wireless Keyboard",
-          "id": "49a39920-37ed-421d-b750-b640cbb83b78",
+          "id": "dee34c8b-9198-4e61-a504-2ba1f62999ba",
           "price": 49.99,
-          "quantity": 2
-        },
-        {
-          "name": "Mechanical Keyboard",
-          "id": "4910f190-6fe7-4bb9-a094-fd4b03994c46",
-          "price": 129.99,
-          "quantity": 3
-        },
-        {
-          "name": "Smartwatch",
-          "id": "0e327f86-70a0-4aeb-ba70-a465cdeb5a71",
-          "price": 199.99,
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "Id": "cea59c5d-057e-42bd-b01e-de3c7de905ac",
-      "reason": "Damaged item",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 579.89,
-      "active": false,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Wireless Charger",
-          "id": "207eb6fc-6f56-43bf-bab4-923cbc1cbd29",
-          "price": 19.99,
-          "quantity": 2
-        },
-        {
-          "name": "Portable SSD",
-          "id": "215b9d06-f1a7-4c1d-800c-de98f0a548e1",
-          "price": 149.99,
-          "quantity": 1
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "bd849bc3-944c-4b0a-aefe-0895b7a0b45c",
-          "price": 89.99,
-          "quantity": 2
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "d8d89fb8-6304-4b2f-a793-437e71d8121c",
-          "price": 39.99,
-          "quantity": 3
-        },
-        {
-          "name": "Laptop Stand",
-          "id": "6b271f29-f1d1-46cb-8ce1-115f737eb742",
-          "price": 29.99,
           "quantity": 3
         }
       ]
     },
     {
-      "Id": "a3769d3e-82cf-4b6c-b95d-fb7062ab161a",
-      "reason": "Wrong product",
+      "id": "ff9556f9-e1ca-4914-912e-3e08fef881ed",
+      "reason": "Refund request",
       "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://electromart.com",
       "amount": 319.96,
       "active": true,
       "decision": null,
       "Items": [
         {
-          "name": "Smartwatch",
-          "id": "0a6c7c4c-99cf-4f76-aee0-4a23461d2cb8",
-          "price": 199.99,
-          "quantity": 1
+          "name": "Laptop Stand",
+          "id": "e4b11d67-b3d5-4940-a7cd-f9a8223be387",
+          "price": 29.99,
+          "quantity": 2
         },
-        {
-          "name": "USB-C Hub",
-          "id": "46d22118-08f2-4687-a231-9e39c5acf8c4",
-          "price": 39.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "5034fc28-540a-4ff3-a4cd-5d93f697cfd8",
-      "reason": "Exchange request",
-      "store_name": "SmartShop",
-      "store_logo": "https://example.com/smartshop.png",
-      "store_url": "https://smartshop.com",
-      "amount": 689.94,
-      "active": true,
-      "decision": null,
-      "Items": [
-        {
-          "name": "Gaming Mouse",
-          "id": "e4e946bf-9ff8-4cd5-ab40-684fe605621e",
-          "price": 79.99,
-          "quantity": 3
-        },
-        {
-          "name": "Portable SSD",
-          "id": "e67ddaa8-59b7-400e-9b05-7054d30533ed",
-          "price": 149.99,
-          "quantity": 3
-        }
-      ]
-    },
-    {
-      "Id": "aad60f8f-2923-42f4-8137-45b97b96f2a4",
-      "reason": "Wrong product",
-      "store_name": "Tech Haven",
-      "store_logo": "https://example.com/techhaven.png",
-      "store_url": "https://techhaven.com",
-      "amount": 259.98,
-      "active": true,
-      "decision": null,
-      "Items": [
         {
           "name": "Mechanical Keyboard",
-          "id": "eabf941a-efe6-4698-9dd7-327b1cd71f35",
+          "id": "301d354b-f626-420b-9363-a28717225381",
           "price": 129.99,
           "quantity": 2
         }
       ]
     },
     {
-      "Id": "b34001c6-ed20-4398-b9ed-13dc17a2758b",
-      "reason": "Wrong product",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 379.97,
+      "id": "7deda371-0807-40d9-b887-ccd7c7bdbcc3",
+      "reason": "Customer request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 629.96,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Laptop Stand",
+          "id": "877ba545-789a-481d-9ce3-7ee98638eaf7",
+          "price": 29.99,
+          "quantity": 1
+        },
+        {
+          "name": "Smartwatch",
+          "id": "a90257f6-ff1e-48e1-8045-4f6c981db1d1",
+          "price": 199.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "bc4cf9ba-fba4-4169-992a-7f986de05db6",
+      "reason": "Exchange request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 1539.91,
       "active": true,
       "decision": null,
       "Items": [
         {
           "name": "Portable SSD",
-          "id": "cf23d5da-3e3e-407b-ae7b-70f42ad1c718",
+          "id": "2e2a6f28-0416-4d57-b8f3-981fea7099bd",
+          "price": 149.99,
+          "quantity": 1
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "5957fbaa-c0b7-4011-ae8e-449c6f8862ed",
+          "price": 249.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "7bb4eb96-b1e0-4cbd-9e5b-4505f0046ced",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Smartwatch",
+          "id": "fcb6cc0d-622d-44cc-b002-2af054df01f2",
+          "price": 199.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "7d71d275-30f3-4953-90f1-b4e13e7fd676",
+      "reason": "Wrong product",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 349.92,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "00d263ad-6058-4774-8797-04aa0aae5d1c",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "ee3cf0e6-652f-4a59-b09c-9aa9325dfbc2",
+          "price": 49.99,
+          "quantity": 1
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "f7d21e48-4d0c-4a2a-a7bb-ba846548cd95",
+          "price": 29.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "420303cc-9f8d-441c-b1ec-6bc89e6d2b25",
+          "price": 39.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "0965f233-473a-4b3e-a4bf-e21b8b04894a",
+      "reason": "Customer request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 59.97,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "18b4a4e7-3cd8-4a13-ab85-1c78d1b3699b",
+          "price": 19.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "83e8cbdd-411d-43a5-827e-046fb540987f",
+      "reason": "Customer request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 1429.9,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "03bdeaa4-80f1-4b98-914e-20021e1117e6",
+          "price": 249.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "85718735-f358-4133-b09b-778e64cf3350",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "ad3c395b-d465-4970-a6f5-939ebcc120ec",
+          "price": 79.99,
+          "quantity": 3
+        },
+        {
+          "name": "Portable SSD",
+          "id": "fc396786-2d9a-43ff-99e5-faf30e27c59b",
           "price": 149.99,
           "quantity": 2
         },
         {
-          "name": "Gaming Mouse",
-          "id": "862937f7-61c3-4253-89dd-f6dbf5d567bc",
-          "price": 79.99,
+          "name": "Wireless Keyboard",
+          "id": "95119994-69e7-447c-8d26-60c86ffc97da",
+          "price": 49.99,
           "quantity": 1
         }
       ]
     },
     {
-      "Id": "45796336-cad6-4ef5-9dd5-30d26060339b",
+      "id": "267cd9d9-20d9-4ff1-adce-c78c788d6332",
       "reason": "Damaged item",
-      "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
-      "store_url": "https://digitalhub.com",
-      "amount": 849.92,
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 609.94,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Mechanical Keyboard",
+          "id": "7dec9964-adb3-4203-be2f-e215e5fedeea",
+          "price": 129.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "1ec355c8-dba7-4c58-a669-b0d8c0c2b8be",
+          "price": 89.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "23677db6-32ba-456c-9fbe-dfa420d6f379",
+          "price": 39.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "a9362e95-c156-44fa-950a-58f3a31d5f25",
+      "reason": "Customer request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 1849.87,
       "active": false,
       "decision": null,
       "Items": [
         {
-          "name": "Smartwatch",
-          "id": "b6447710-d737-4fe2-a4fb-1038831bbbaa",
-          "price": 199.99,
-          "quantity": 1
-        },
-        {
-          "name": "USB-C Hub",
-          "id": "1426dcc5-5443-45a4-931b-2a40cdc94acc",
-          "price": 39.99,
-          "quantity": 1
-        },
-        {
-          "name": "Wireless Charger",
-          "id": "03e33bc7-2c21-4dcd-ad09-95d4f2ee9e5c",
-          "price": 19.99,
+          "name": "Wireless Keyboard",
+          "id": "a0d885de-d9d4-4fcc-87b3-b2e875e5abaf",
+          "price": 49.99,
           "quantity": 3
         },
         {
-          "name": "Portable SSD",
-          "id": "04475311-3e7f-4a10-aa8b-ed8a8ca0cac4",
-          "price": 149.99,
+          "name": "Smartwatch",
+          "id": "690f9dff-4e68-42a0-a841-547ad2bbb28d",
+          "price": 199.99,
           "quantity": 2
         },
         {
           "name": "Noise Cancelling Headphones",
-          "id": "7c8bb94d-addc-49bf-9b60-8430d54e57f7",
+          "id": "ec2c0cc2-c668-48dd-a296-08e3e2104ec2",
+          "price": 249.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "78bd300a-178a-46fe-9084-05c96703bf6c",
+          "price": 79.99,
+          "quantity": 2
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "96406978-f358-45e0-bcbc-82917f87d808",
+          "price": 129.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "874ba499-43a2-4b28-bbfe-ee2be9239a5b",
+      "reason": "Customer request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 289.97,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "801f6a80-06bf-4356-9ad1-bc3e165c9f05",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "fea70dd3-b5e1-4cea-bcce-13602cdcafaa",
           "price": 249.99,
           "quantity": 1
         }
       ]
     },
     {
-      "Id": "6d3e4aa8-985d-4674-8e6a-da1d7563b53b",
-      "reason": "Damaged item",
+      "id": "1cde31df-956c-4a69-9abe-f5a7d186dec8",
+      "reason": "Refund request",
       "store_name": "Digital Hub",
-      "store_logo": "https://example.com/digitalhub.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://digitalhub.com",
+      "amount": 629.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "ae830436-c3f9-41b0-beef-14b9a982bf99",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "e95b2fb8-ca6c-4d85-80c9-e50f1a37dfb4",
+          "price": 79.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "dc605083-d769-445b-9d5d-68155d4bf31f",
+          "price": 19.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "a1e7fb7d-89f1-44fe-8cd0-e13205fe2f70",
+      "reason": "Wrong product",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 809.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "f3448fa6-bf8e-4953-9ab7-7cdd8e4bfbf7",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "8ce9f8b6-d703-4e5e-83fc-2f1a1be8a27d",
+          "price": 249.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "439caac2-8fa6-42b6-8d1f-69df1fb38e94",
+      "reason": "Customer request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 829.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "300c93b3-2f6c-47db-a392-1f9c8195fdae",
+          "price": 149.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "09e8184c-5b9e-4162-ab5e-e7724c4d0d63",
+          "price": 19.99,
+          "quantity": 1
+        },
+        {
+          "name": "Smartwatch",
+          "id": "10439576-943b-4ed2-a553-e4d093703e1a",
+          "price": 199.99,
+          "quantity": 2
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "4eb99ea0-6afa-41e1-836d-7b8d32d98ae5",
+          "price": 129.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "3915de21-edce-4719-9161-1384149cfbf0",
+      "reason": "Refund request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 889.91,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "2c6ef8da-259e-4ad9-9a0b-4845756a4cc4",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "4f7b4cf1-d37d-4be4-9d49-feb4f3ae5a08",
+          "price": 39.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "62a6b08a-54ce-4deb-b017-3078aa6acd6b",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "b5022438-ffdd-4467-9614-efe7e475ba8c",
+          "price": 249.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5ee772d2-fb51-4411-85cb-48c353f8f8eb",
+      "reason": "Damaged item",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 79.98,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "979b479e-32ed-4222-8b4c-a965a4252bf2",
+          "price": 39.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "b8c34c76-f205-4224-ac62-4cb6e912731b",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 929.88,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "ead2500b-0af7-47d8-9c5e-385b30146a18",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "19765276-7d5c-43ea-8209-374ce7c21d77",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Portable SSD",
+          "id": "3b056be4-66af-4d32-9686-8e9bc191cff7",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "84ff5c90-b5ef-4d45-a027-5f868f197ff9",
+          "price": 49.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "fbc6232d-e187-4c27-9251-c28dc1f0a047",
+      "reason": "Wrong product",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 549.95,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Keyboard",
+          "id": "8ce1b4df-d7c1-4401-8def-f6e238af36da",
+          "price": 49.99,
+          "quantity": 2
+        },
+        {
+          "name": "Portable SSD",
+          "id": "d6b0c8b9-1785-4943-b365-54aac4f9b18d",
+          "price": 149.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "fd6089ca-a468-4373-9c5b-eb8146e7cafc",
+      "reason": "Refund request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
       "amount": 499.98,
       "active": true,
       "decision": null,
       "Items": [
         {
           "name": "Noise Cancelling Headphones",
-          "id": "a8de7cdc-10fd-4141-a011-9b4fea1f2486",
+          "id": "d495646d-41ab-442b-9c5d-7ada99d6b21d",
           "price": 249.99,
           "quantity": 2
         }
       ]
     },
     {
-      "Id": "c4eb3091-b36c-4d67-82a3-a937424a4c4b",
-      "reason": "Damaged item",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 1059.94,
+      "id": "f9eef809-fb61-404a-a131-cfbe2d90a4b5",
+      "reason": "Customer request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 569.92,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Laptop Stand",
+          "id": "33e108d0-a1ef-4e60-964f-042d74eab040",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "3edbc80c-21ce-4c5a-ae1a-4216e46f5d46",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "abad1034-14c9-4dcc-9145-21138acd053b",
+          "price": 79.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "12b8884d-79f5-4ed7-8a5e-9ac7ec5730fa",
+      "reason": "Wrong product",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 1089.94,
       "active": true,
       "decision": null,
       "Items": [
         {
           "name": "Portable SSD",
-          "id": "524920d2-8289-4f54-a05c-916421c6951b",
+          "id": "b5247471-e3a3-4cd5-8de7-f33ceddffa2e",
           "price": 149.99,
           "quantity": 2
         },
         {
-          "name": "Mechanical Keyboard",
-          "id": "58fbf3d6-d807-4ab6-ae3c-33dc66f7b398",
-          "price": 129.99,
-          "quantity": 2
+          "name": "USB-C Hub",
+          "id": "42615f80-b0f7-4a8d-9a0a-a1ddd197e439",
+          "price": 39.99,
+          "quantity": 1
         },
         {
           "name": "Noise Cancelling Headphones",
-          "id": "7e70ad71-f357-488b-8156-19eacd5ed5ca",
+          "id": "a7efa71c-ffdf-4f18-940e-60860578791e",
           "price": 249.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "cbaed925-ce04-4023-8ec4-822bd2143067",
+      "reason": "Damaged item",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 499.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Laptop Stand",
+          "id": "095273a9-9211-4b7b-9d4d-c58df183fefd",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "977b9e59-4772-4f91-b87a-22fc46ffeb65",
+          "price": 129.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "8f37503e-52e7-4eb1-9349-5ab6f52f9261",
+          "price": 49.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "b90a08c7-b1e9-4e94-a5e3-a0d3c0d8cdbe",
+      "reason": "Customer request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 289.94,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Keyboard",
+          "id": "97f3e66d-6b02-41d1-b2a9-461cdc88ae65",
+          "price": 49.99,
+          "quantity": 2
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "20d9a06d-86c0-483a-a7aa-2a890b40e219",
+          "price": 29.99,
+          "quantity": 1
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "a2869539-12bd-4f7d-917c-1d9eab63ab88",
+          "price": 79.99,
+          "quantity": 1
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "8213ced6-8d24-4b8d-a438-4f32a3580793",
+          "price": 39.99,
           "quantity": 2
         }
       ]
     },
     {
-      "Id": "8f040fd5-4363-4914-a317-da9009fa59b1",
+      "id": "f142399f-4796-4e3c-b516-37b2ae7efc8d",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 239.97,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Gaming Mouse",
+          "id": "28096f76-9184-494c-ae0b-324434fad834",
+          "price": 79.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "21c082da-3ad8-4570-847c-0fc0deba0af7",
       "reason": "Wrong product",
-      "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
-      "store_url": "https://gadgetworld.com",
-      "amount": 39.98,
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 1059.9,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "8001cb0f-7ef4-4a9c-bc6a-b77f45394462",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "c4fc5776-2235-468d-a886-5973c4400a33",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "6f6e58b3-4ba9-450e-b625-1c93444a4545",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Smartwatch",
+          "id": "688f180b-1440-446d-a08c-d68d26f1112e",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "94859147-48ab-4b92-9016-c27b25da117a",
+          "price": 89.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "6301e517-2515-4e36-9186-7a23869add07",
+      "reason": "Damaged item",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 59.97,
       "active": true,
       "decision": null,
       "Items": [
         {
           "name": "Wireless Charger",
-          "id": "f10f5d77-4e00-4e49-ae05-22848fdc9b04",
+          "id": "00cb5541-e308-4b56-af9e-6f87773c257f",
           "price": 19.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "67c87eeb-210f-462b-81ff-dbe3831588e3",
+      "reason": "Refund request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 639.91,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Laptop Stand",
+          "id": "c4a5ba50-699d-4408-9aca-a2a8524ae31c",
+          "price": 29.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "8f7340ed-9d03-4703-ac97-f5ca095c0e64",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "de7c9a79-39c7-497a-8953-f85c06a6e58e",
+          "price": 39.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "d3f3570b-2a0a-4883-99b0-5b444cff8f43",
+          "price": 89.99,
           "quantity": 2
         }
       ]
     },
     {
-      "Id": "630ab2f1-309a-4c85-addb-bda917f2a97c",
+      "id": "70596148-0e81-42d9-9856-17bbe7cab3e9",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 449.97,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "a632e7d8-dba0-4923-ab19-a7a9550558e7",
+          "price": 149.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "4d40e8cb-1b48-4d77-a0b6-eab6e79c3a69",
+      "reason": "Wrong product",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 929.93,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "81d9243e-76b5-4746-a35f-268d4b959211",
+          "price": 149.99,
+          "quantity": 2
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "57aa52f7-26bb-49fd-a68b-11af08cb8381",
+          "price": 249.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "fb4da3ed-dc35-4d19-8e6b-ff8ec7b2798e",
+          "price": 49.99,
+          "quantity": 1
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "c4c1a676-91d6-4478-b42c-4474f9e3b822",
+          "price": 39.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "94032a57-b66e-4372-84f0-a0388881b962",
       "reason": "Exchange request",
       "store_name": "Gadget World",
-      "store_logo": "https://example.com/gadgetworld.png",
+      "store_logo": "https://picsum.photos/50",
       "store_url": "https://gadgetworld.com",
-      "amount": 1389.88,
+      "amount": 1049.92,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "e67ecd75-5e2b-4426-93e8-252f4fa565d2",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "b4e45860-1c9e-49af-bc73-5f958bd3e9bd",
+          "price": 249.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "ad88f733-2493-4dac-9237-6693dc46cc47",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "f694f0c9-411d-4f00-987f-c4815f656b89",
+          "price": 29.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "192e25b5-e1ee-484a-842c-4c8c56c83399",
+      "reason": "Wrong product",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 939.9,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Mechanical Keyboard",
+          "id": "e21ec4b0-f2f8-4a9b-9f8f-c7e781e89eaa",
+          "price": 129.99,
+          "quantity": 3
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "a6d18f97-01af-4555-8fb3-b292527f0610",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "57af4768-ed5a-4936-a384-552eba813fe9",
+          "price": 79.99,
+          "quantity": 2
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "31c4a50e-7ad7-42df-b6cf-7829babccf7d",
+          "price": 89.99,
+          "quantity": 2
+        },
+        {
+          "name": "Portable SSD",
+          "id": "5f59b88e-efb1-4570-baab-218b420b8631",
+          "price": 149.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "81b6258a-d13f-4012-a4a9-a2df2d2f80fa",
+      "reason": "Wrong product",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 1019.9,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "cc9d5fbc-a824-470d-95c7-ca54c21bd77d",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Smartwatch",
+          "id": "32a1703a-2dc4-4d5e-a981-6b0bc9a313a7",
+          "price": 199.99,
+          "quantity": 2
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "79753a16-f9e3-4146-b383-270d1bda7dc2",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "80c94dcb-39be-4c60-929b-32c78eaaada3",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "6fb7a271-3b35-4f76-aa33-30d32708cbb8",
+          "price": 249.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "4711a9bd-2439-4a08-987c-c61546a0f594",
+      "reason": "Exchange request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 229.92,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "f311eb4a-d902-41f8-851a-88aebf15e42a",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "63d403cf-d874-4152-a660-aa6451a4c841",
+          "price": 39.99,
+          "quantity": 2
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "dd125cd6-e595-4358-a28f-ea4c5c07a2c6",
+          "price": 29.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "92a1a984-318b-4baa-9922-0a89164e5242",
+      "reason": "Customer request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 469.94,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Gaming Mouse",
+          "id": "7cbf7ec1-2d5f-4094-a3a6-7c0920432009",
+          "price": 79.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "3b3826f1-3ea8-41c2-a754-00c7434a485a",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "c1116cae-628e-4b66-9d2a-feba16ff86f8",
+          "price": 249.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "6508f3f8-23d5-4b6f-90c3-6331e380a5bc",
+      "reason": "Exchange request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 329.98,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "1566aad2-d242-4a1b-a217-a1244bb1c595",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "476f1f81-95f9-46f4-a1de-f1c09ccc6b1a",
+          "price": 79.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "0ec6218e-e8cd-4b1f-abd9-6d563626e50d",
+      "reason": "Damaged item",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 299.98,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "c67c22d5-658d-4ecf-8cc6-bf9f808bfc64",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "900fdff5-153f-441c-8c96-99f0f3bc211b",
+          "price": 49.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5f328593-d3fa-4db3-896b-87dd5e6a1565",
+      "reason": "Exchange request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 1179.93,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Smartwatch",
+          "id": "2b26286f-7a2b-4a2c-9030-c6978865c318",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "b0aa2aae-d2e4-4aeb-a549-95a4c0ceead9",
+          "price": 249.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "6d8fd522-9d53-47ff-8e64-49501a96b3aa",
+          "price": 39.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "e4f0a9e8-66b2-421c-97e3-ae0cbb1c565c",
+      "reason": "Exchange request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 119.97,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "a19564e2-9d47-4da5-9504-507c770ba752",
+          "price": 39.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "fafdac58-9a2b-43b4-830e-d1268e4e342e",
+      "reason": "Wrong product",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 579.96,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Smartwatch",
+          "id": "e1f4c0c4-6260-47ee-96ec-f15ff6473503",
+          "price": 199.99,
+          "quantity": 2
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "f5377eb6-4b5e-4d8b-848d-737355df1aa5",
+          "price": 129.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "d2c23ed0-38f2-47c7-979e-fd6afba0f103",
+          "price": 49.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "296ea114-6a99-404b-8e5e-8367e95182fc",
+      "reason": "Wrong product",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 439.94,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "9f67726e-74e4-411b-a147-a97774d3af0c",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "3c104f4c-0c33-40aa-8605-305d7c8ba5d5",
+          "price": 49.99,
+          "quantity": 2
+        },
+        {
+          "name": "Portable SSD",
+          "id": "aa711ba4-43de-4065-ada0-0dee1125332b",
+          "price": 149.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "b17d7c51-f034-43bd-aa41-df793094a65b",
+      "reason": "Customer request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 829.92,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Laptop Stand",
+          "id": "bdacda87-a526-4860-b075-109a7984d78b",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "73e100a6-acb8-4a3b-bbea-c98218c13365",
+          "price": 129.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "9b25148e-6a12-4559-b7da-f2b068612926",
+          "price": 79.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "1711a4a6-6891-455f-b9c7-baa4985c9548",
+          "price": 149.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "81fd8770-054b-45b5-997c-50f2f0ecd988",
+      "reason": "Refund request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 149.97,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Keyboard",
+          "id": "4d72c70c-dfbe-4d92-9eff-ae9a3c7f0962",
+          "price": 49.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "8f2ec358-e3f7-449e-b3cb-56394a81fcb7",
+      "reason": "Exchange request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 479.97,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Gaming Mouse",
+          "id": "bf99a65a-5311-4add-916a-13a4b0a38d40",
+          "price": 79.99,
+          "quantity": 1
+        },
+        {
+          "name": "Smartwatch",
+          "id": "da23fa8e-037f-4246-8f74-5bbb07f052c5",
+          "price": 199.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "0d13a2cc-712b-4fae-9d46-c28d5cbc4eff",
+      "reason": "Wrong product",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 389.97,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Mechanical Keyboard",
+          "id": "2168f189-048f-4b11-a21e-114f2564251a",
+          "price": 129.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "640132f1-15db-45c3-93ab-763954bfa11d",
+      "reason": "Wrong product",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 909.92,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "89c5e455-86de-405a-8831-63a671cf8119",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Portable SSD",
+          "id": "5679ee7f-1f60-4562-b328-38e39de68b76",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "Smartwatch",
+          "id": "9e2f91d7-4597-4a2e-b53f-3dcf31ad26af",
+          "price": 199.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "e79967d4-43ff-4560-8f1d-5a516bb61b8b",
+      "reason": "Exchange request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 119.97,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "94f322e3-378a-442a-90da-a6ecb190c07d",
+          "price": 39.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "7e77d599-cb01-4cd9-9e2d-dbede18bde10",
+      "reason": "Wrong product",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 779.91,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "1a64a4c6-f660-423c-83e8-dda3e56e2582",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "a8a78b62-4985-4fe4-a433-43dc5de94372",
+          "price": 129.99,
+          "quantity": 2
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "c6630a1b-9f7c-489b-9dc0-870cd9b6fa1d",
+          "price": 79.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "27dace37-8c16-49b5-a467-e6f32cd8218c",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "c92a8981-0190-4a8d-a6e9-1b89d3dcb02b",
+          "price": 49.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "11b4c9f6-e17d-45f7-bd12-028ec2ebc073",
+      "reason": "Customer request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 619.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "233c5412-00d7-4eee-81ae-175b6af276ed",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "7f24f8e1-528d-483c-8c2f-b9c99f76fc9a",
+          "price": 249.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "82480b1d-3270-448e-a25f-3dd13dbcba50",
+          "price": 39.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "533c62d5-7af1-4504-a3e7-4576248e0e85",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 1109.89,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "8df030b3-8d6c-405e-a494-59321f303372",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "3101a528-976a-4539-bf2d-f4d33fdf4079",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "e44e8395-4c97-4b96-bb3d-751da515b684",
+          "price": 49.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "b82e4040-565a-47f9-a19a-8c9a936376cc",
+          "price": 89.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "63f6bd49-e4b6-4eb6-8b54-9398eae34434",
+          "price": 39.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "5061bd5e-ed3d-41e7-aada-6b471d22998c",
+      "reason": "Wrong product",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 719.9,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Laptop Stand",
+          "id": "ea844a71-e8ca-43bb-b900-1edbc6f5e8d7",
+          "price": 29.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "94544d0b-e0ed-4bc7-8c48-e784556d735b",
+          "price": 49.99,
+          "quantity": 3
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "1346a0e5-23b0-439b-851d-53f78bcd349e",
+          "price": 89.99,
+          "quantity": 2
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "f0f4656a-4982-4d8e-bbd3-722d60069ab5",
+          "price": 39.99,
+          "quantity": 2
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "1df93263-d4de-4446-8d7d-02805447f2f3",
+          "price": 249.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "48d498db-7db5-4b07-8d17-f9d8a15ca6c0",
+      "reason": "Damaged item",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 449.97,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "9a177ee5-b2ee-4488-8189-aea50d748792",
+          "price": 149.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "2f9afa0a-6f81-4432-a563-f4ed095a35f3",
+      "reason": "Damaged item",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 1199.92,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "6be47d0c-cfbe-4f08-ba35-d5f6bdb372cb",
+          "price": 249.99,
+          "quantity": 3
+        },
+        {
+          "name": "Portable SSD",
+          "id": "fc3f2366-514c-41da-b042-4ce9a9e68e70",
+          "price": 149.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "e115faf6-df6c-4d18-bd3d-a64376d4955a",
+          "price": 49.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "87d9a3e4-ed90-4ba9-a7e9-6f6681763250",
+      "reason": "Refund request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 539.94,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Keyboard",
+          "id": "4911e4e1-1dcd-4b73-b4f9-90b9d445377b",
+          "price": 49.99,
+          "quantity": 3
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "36ae5cee-c263-4352-a103-6dc592170ce5",
+          "price": 129.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "5bb282a8-ea3c-4d89-9dd8-b40e065e5f8c",
+      "reason": "Customer request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 189.96,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Mechanical Keyboard",
+          "id": "60a52aab-a342-457a-9482-cb02535c7f26",
+          "price": 129.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "99783e10-1402-45a8-bab0-30eda70ca38c",
+          "price": 19.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "2ef149d8-8de9-483a-b4d6-04d0f33512ef",
+      "reason": "Wrong product",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 319.94,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "811e1b95-cb8a-42db-9777-bb308199031a",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "911f385f-1c60-408e-932e-c975e8970238",
+          "price": 89.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "4cee23ee-4fd2-44cc-8fd6-f489df0627b8",
+          "price": 49.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "ba6202ca-52bb-42ba-b7c9-97d8bb474cd4",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 959.92,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Smartwatch",
+          "id": "138320e5-8cf7-4ae1-a40c-bdfb862af7d1",
+          "price": 199.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "12698635-9661-450c-b6e8-eaf7c9fdde16",
+          "price": 49.99,
+          "quantity": 1
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "e957e9ff-3d21-48ab-bb9b-a7ede6090f60",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "49e3da5f-6cd4-4a6f-8b85-bef91d4c1d89",
+          "price": 89.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "71353b9b-23dc-49d6-b35a-80f163809e56",
+      "reason": "Exchange request",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 299.98,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Portable SSD",
+          "id": "1bbf40bc-7b63-4adf-b97e-cbcd38b1e03f",
+          "price": 149.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "642e5f83-343d-4e40-822c-fe4be3f1723d",
+      "reason": "Customer request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 919.95,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Gaming Mouse",
+          "id": "fa651a80-84fe-4c3d-8898-a02a7ba84537",
+          "price": 79.99,
+          "quantity": 1
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "87878d74-df43-4ce5-b674-d9dcc4a917b6",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "394e0db8-6af5-4cdc-89e4-64d7dfc4fd00",
+          "price": 249.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "49460ff4-3584-4052-9c9a-edddc07d7444",
+      "reason": "Exchange request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 239.98,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "b188280d-f187-4189-bf95-7c1a04fd2918",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "3af237d7-070c-4180-b0d9-164aa9123080",
+          "price": 149.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "8ae73f58-bb35-494c-9148-e296fc6d4a65",
+      "reason": "Wrong product",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 169.95,
       "active": true,
       "decision": null,
       "Items": [
         {
           "name": "Laptop Stand",
-          "id": "4f25ac41-8003-4c00-8023-74ad9e46e031",
+          "id": "b44db556-7965-44f3-a597-2721dafe4327",
           "price": 29.99,
-          "quantity": 1
-        },
-        {
-          "name": "Smartwatch",
-          "id": "274abb0b-ea37-4a76-a440-c1410ae41f65",
-          "price": 199.99,
-          "quantity": 2
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "56f14765-9c2a-4788-808a-f4c93da4f24d",
-          "price": 49.99,
           "quantity": 3
         },
         {
-          "name": "Noise Cancelling Headphones",
-          "id": "73ddabc2-1ec9-4e7b-aea2-7bbe841d309a",
-          "price": 249.99,
+          "name": "USB-C Hub",
+          "id": "1581200b-374e-4ec9-9582-bca41f21b7d0",
+          "price": 39.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "7b140f64-860f-4ebc-a087-4c91a6884a2c",
+      "reason": "Exchange request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 329.94,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "39837593-ab67-40d7-a439-818e23677ecb",
+          "price": 89.99,
           "quantity": 3
         },
         {
           "name": "Wireless Charger",
-          "id": "21bd8fd7-d747-46a1-b8cd-6f08666797f6",
+          "id": "923ad156-ea1f-4c4a-a896-23abb60906dd",
           "price": 19.99,
           "quantity": 3
         }
       ]
     },
     {
-      "Id": "e1235d45-5fec-43e5-9f15-b1b3cbd662fe",
+      "id": "fd59a249-b4f2-4af4-bf97-8fda1581cd13",
       "reason": "Damaged item",
-      "store_name": "ElectroMart",
-      "store_logo": "https://example.com/electromart.png",
-      "store_url": "https://electromart.com",
-      "amount": 539.95,
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 1019.92,
       "active": true,
       "decision": null,
       "Items": [
         {
-          "name": "Smartwatch",
-          "id": "7ee2e8b8-a858-4ca3-83f0-c49fc2c4bcaf",
-          "price": 199.99,
+          "name": "Mechanical Keyboard",
+          "id": "864ddcf7-c60c-41a0-8035-c05d0561cef2",
+          "price": 129.99,
           "quantity": 1
         },
         {
           "name": "USB-C Hub",
-          "id": "713a9261-db63-4f6b-a337-80bf85abc1a7",
+          "id": "c67498ee-2ff0-48d3-923a-24b70a6d130a",
+          "price": 39.99,
+          "quantity": 3
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "4c6208b2-7731-4ca4-b2c1-10ee8b5fc3ce",
+          "price": 19.99,
+          "quantity": 1
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "4ae61e4e-d53b-49c7-be8c-e1106a43a707",
+          "price": 249.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "b2947e99-36b0-4794-8f7c-0549a8fdb25b",
+      "reason": "Damaged item",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 389.92,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "2e84bbf6-76a9-4e41-96cc-a325a9b026dc",
+          "price": 19.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "8fc1817f-bdc2-42ab-acb8-154b87711ff3",
+          "price": 49.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "05b24c30-4208-43cb-ac05-06eb3728e985",
+          "price": 79.99,
+          "quantity": 1
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "04a2959e-8cdb-4e03-9db3-3da03d34a67a",
+          "price": 29.99,
+          "quantity": 1
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "49e10f86-47d9-480d-988f-7efffd8ff278",
+          "price": 89.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1841fbd9-1734-4b4d-911b-17d645f3dee4",
+      "reason": "Customer request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 579.95,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "6bb5b5bb-500b-425e-8859-5ffaa87442ad",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Bluetooth Speaker",
+          "id": "32d525aa-0f0f-415a-8d5a-cb4927d5e155",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "6a7d0ec4-b143-4c6b-b750-80d475a1761d",
+          "price": 149.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "7099443d-61b5-4fa1-af12-f8ffecd0d7b8",
+      "reason": "Refund request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 1079.91,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "a961228a-0717-4630-af52-24327598221a",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "0c0ae174-fd68-4743-84d7-ad7a21caaf36",
+          "price": 49.99,
+          "quantity": 2
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "a23d996e-9ffe-4c6b-9e55-bd73fb035f96",
+          "price": 249.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "2d7d6ac8-e8ee-4a04-a802-d97c9df6e1fc",
+          "price": 79.99,
+          "quantity": 2
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "d15381f9-d88e-473a-be09-bc9ffc54681b",
+          "price": 29.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "7a66e903-58e7-4285-9753-987f4aa60d07",
+      "reason": "Damaged item",
+      "store_name": "SmartShop",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://smartshop.com",
+      "amount": 189.96,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Charger",
+          "id": "8aa6f8a9-aaaa-494f-aa9a-3cf2526ca1de",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "c3b61aa3-1af4-4436-ae19-daa1bea23dfd",
+          "price": 129.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "df417cfe-684c-45ac-84a9-f66071eabeda",
+      "reason": "Damaged item",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 1039.9,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "1416c1ec-f09e-4107-a6b2-ee4326d52abb",
           "price": 39.99,
           "quantity": 2
         },
         {
+          "name": "Smartwatch",
+          "id": "143fb062-57bc-4650-b70e-56f33337faed",
+          "price": 199.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "0a6b8eed-8713-4c4b-a2d8-0f9a96f748d3",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "f9daf790-1399-46c0-a374-03a4a49fbd3d",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "85cbc998-b897-465a-844f-3fabaf313997",
+          "price": 149.99,
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "20353b3d-86b8-419a-a199-51a7b264cb76",
+      "reason": "Damaged item",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 649.97,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Noise Cancelling Headphones",
+          "id": "8c09f1a0-7b61-4873-9cb3-cb4aaf70d238",
+          "price": 249.99,
+          "quantity": 1
+        },
+        {
+          "name": "Smartwatch",
+          "id": "5d7b9572-b9be-4c83-a0d1-692fed40dc52",
+          "price": 199.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "9f58740f-44bc-48f3-95bc-5d81de85e19c",
+      "reason": "Wrong product",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 749.89,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Gaming Mouse",
+          "id": "08fcf678-559c-4f4a-9514-3b47fe0dbb41",
+          "price": 79.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Keyboard",
+          "id": "aa9d80c1-9cf1-44c5-a9be-0cf3520231b2",
+          "price": 49.99,
+          "quantity": 2
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "0f836391-c685-46e3-994b-baffe2bb3d27",
+          "price": 19.99,
+          "quantity": 3
+        },
+        {
           "name": "Mechanical Keyboard",
-          "id": "e57e4900-c717-4067-b661-c0516017a533",
+          "id": "ea2a2608-6378-4b94-9e90-cf11b502897e",
+          "price": 129.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "d80f469a-b6c4-42c8-a9e8-48e3d839cd9e",
+          "price": 39.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "1b98c312-138a-4dae-9b96-0c45bbb7cd5d",
+      "reason": "Exchange request",
+      "store_name": "Gadget World",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://gadgetworld.com",
+      "amount": 699.93,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "USB-C Hub",
+          "id": "6fd7a2ee-c953-441c-9516-f5771d3062a5",
+          "price": 39.99,
+          "quantity": 3
+        },
+        {
+          "name": "Portable SSD",
+          "id": "5bd91e6f-61b2-4ac5-a380-c6cb9bf655a9",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "ae1ec26a-a41f-405b-bf44-751e770c66fd",
+          "price": 129.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "e1e76fa6-12d8-481e-b90e-f05c883c91b6",
+      "reason": "Exchange request",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 209.95,
+      "active": true,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Wireless Keyboard",
+          "id": "6de43fe3-3893-460f-bf8f-742feabc60a4",
+          "price": 49.99,
+          "quantity": 3
+        },
+        {
+          "name": "USB-C Hub",
+          "id": "991cbede-9063-466a-aa2c-1205521a9a05",
+          "price": 39.99,
+          "quantity": 1
+        },
+        {
+          "name": "Wireless Charger",
+          "id": "d3a8e4c9-c5a6-49aa-b495-7bcd374c1dc9",
+          "price": 19.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "8689e124-da8c-4d2a-8b3f-3d01c3352a0c",
+      "reason": "Customer request",
+      "store_name": "ElectroMart",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://electromart.com",
+      "amount": 659.95,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Mechanical Keyboard",
+          "id": "e2b2fc7a-8f33-4360-a60d-aa357a36d38f",
+          "price": 129.99,
+          "quantity": 1
+        },
+        {
+          "name": "Portable SSD",
+          "id": "e9a6054e-f644-409f-a6a2-7f8eae353649",
+          "price": 149.99,
+          "quantity": 3
+        },
+        {
+          "name": "Gaming Mouse",
+          "id": "b37eb04e-770a-4f5b-b73a-5030f7b08827",
+          "price": 79.99,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "10e4de00-4906-459d-a52a-4aed5509079c",
+      "reason": "Damaged item",
+      "store_name": "Tech Haven",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://techhaven.com",
+      "amount": 329.95,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "1f7059ad-08d4-4d92-b2fa-eb73b3e28342",
+          "price": 89.99,
+          "quantity": 3
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "b6c369a3-80ea-4ba3-b491-ca769207b246",
+          "price": 29.99,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "7511a494-24f5-4a6d-a13d-8fcf52af0ac2",
+      "reason": "Customer request",
+      "store_name": "Digital Hub",
+      "store_logo": "https://picsum.photos/50",
+      "store_url": "https://digitalhub.com",
+      "amount": 1189.9,
+      "active": false,
+      "decision": null,
+      "Items": [
+        {
+          "name": "Bluetooth Speaker",
+          "id": "dc1376da-fb8d-4147-b5c1-ca52bcb414ca",
+          "price": 89.99,
+          "quantity": 1
+        },
+        {
+          "name": "Laptop Stand",
+          "id": "e2f44441-f076-4ede-819d-d560f673d012",
+          "price": 29.99,
+          "quantity": 3
+        },
+        {
+          "name": "Portable SSD",
+          "id": "dc5ac168-46c2-4662-a773-6f0f982aacac",
+          "price": 149.99,
+          "quantity": 1
+        },
+        {
+          "name": "Mechanical Keyboard",
+          "id": "239818b1-fcd6-4e27-b541-54fdc56bc1a5",
           "price": 129.99,
           "quantity": 2
+        },
+        {
+          "name": "Smartwatch",
+          "id": "d6854e2c-99a3-47bc-82dc-567e9e279cef",
+          "price": 199.99,
+          "quantity": 3
         }
       ]
     }
   ]
+
 
 }

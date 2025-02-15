@@ -10,6 +10,7 @@ export interface ITableSlotsProps {
 interface ITableRenderFunctionArgs<T> {
   item: T;
   index: number;
+  dataRowid: number;
 }
 
 export type TTableRenderFunction<T> = (

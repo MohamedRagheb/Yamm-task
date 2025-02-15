@@ -36,11 +36,11 @@ export default function useFetch<T>({
       ...(query && { params: query }),
       method: "GET",
     });
-    console.log(res);
+    return res.data;
   };
 
   const res = useQuery<T, unknown, T>({
-    queryKey: [...queryKey, query?.toString()],
+    queryKey: [...queryKey, query],
     queryFn: (queryFn ?? commonFetchFunction) as any,
     refetchOnWindowFocus: false,
     ...options,

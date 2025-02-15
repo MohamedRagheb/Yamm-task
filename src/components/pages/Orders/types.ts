@@ -1,22 +1,18 @@
-interface Item {
+export interface IItem {
   name: string;
   id: string;
   price: number;
   quantity: number;
 }
 
-interface Store {
-  name: string;
-  logo: string;
-  url: string;
-}
-
 export interface IOrder {
   id: string;
   reason: string;
-  store: Store;
   amount: number;
   active: boolean;
   decision: null;
-  items: Item[];
+  Items: IItem[];
+  store_name: string;
+  store_logo: string;
+  store_url: string;
 }

@@ -32,8 +32,7 @@ const useApi = (): IApiHookReturn => {
         headers,
         data: body,
       });
-      const { data } = res.data;
-      return { data };
+      return { data: res.data };
     } catch {
       return { data: null };
     } finally {
