@@ -6,6 +6,7 @@
       "@/*": ["src/*"]
     },
     "useDefineForClassFields": true,
+    "composite": true,
     "lib": ["ES2021", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
@@ -24,6 +25,7 @@
     "allowJs": true
   },
   "include": [ "**/*.ts", "**/*.tsx" , "src/globals.d.ts"],
+  "exclude": ["vite.config.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"
