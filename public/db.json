@@ -62,7 +62,7 @@
       "store_logo": "https://picsum.photos/50",
       "store_url": "https://smartshop.com",
       "amount": 649.96,
-      "decision": "escalate",
+      "decision": "accept",
       "Items": [
         {
           "name": "Smartwatch",
