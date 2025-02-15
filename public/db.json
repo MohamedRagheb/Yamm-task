@@ -1,5 +1,5 @@
 {
-  "orders":[
+  "orders": [
     {
       "id": "5a8aa854-2fc0-4df4-9c7a-a885947f1f9e",
       "reason": "Customer request",
@@ -55,44 +55,26 @@
       ]
     },
     {
+      "active": false,
       "id": "7f7639db-0730-48be-8c1f-895cdc1fdec4",
-      "reason": "Exchange request",
-      "store_name": "Tech Haven",
+      "reason": "Customer request",
+      "store_name": "SmartShop",
       "store_logo": "https://picsum.photos/50",
-      "store_url": "https://techhaven.com",
-      "amount": 869.91,
-      "active": true,
+      "store_url": "https://smartshop.com",
+      "amount": 649.96,
       "decision": null,
       "Items": [
         {
-          "name": "USB-C Hub",
-          "id": "56327361-a1cb-40fd-a17f-92e5a73db18c",
-          "price": 39.99,
+          "name": "Smartwatch",
+          "id": "192dde3c-323d-4f08-81b6-1bfbecbdc3a6",
+          "price": 199.99,
           "quantity": 1
-        },
-        {
-          "name": "Gaming Mouse",
-          "id": "e3e3035d-80eb-4615-b14f-648e402f1e84",
-          "price": 79.99,
-          "quantity": 3
         },
         {
           "name": "Portable SSD",
-          "id": "6dc31ed6-a482-4165-afa8-54217af36ee7",
+          "id": "67449707-eda0-4964-aeeb-2fb188d594f1",
           "price": 149.99,
           "quantity": 3
-        },
-        {
-          "name": "Wireless Keyboard",
-          "id": "28f2163d-b681-49f3-bf79-1c2c524be0ba",
-          "price": 49.99,
-          "quantity": 1
-        },
-        {
-          "name": "Bluetooth Speaker",
-          "id": "bbc21f31-a393-41aa-a356-74ac6f91fcac",
-          "price": 89.99,
-          "quantity": 1
         }
       ]
     },
@@ -3043,6 +3025,4 @@
       ]
     }
   ]
-
-
 }

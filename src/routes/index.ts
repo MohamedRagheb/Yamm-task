@@ -10,9 +10,12 @@ export const routes: RouteObject[] = [
       // { path: "*", Component: lazy(() => import("../pages/NotFound")) },
 
       {
-        path: "/",
+        path: "/orders",
         Component: lazy(() => import("../pages/orders")),
-        index: true,
+      },
+      {
+        path: "/orders/:id",
+        Component: lazy(() => import("../pages/showOrder")),
       },
     ],
   },

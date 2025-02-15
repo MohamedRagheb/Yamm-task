@@ -20,7 +20,7 @@ const Chip = ({ variant, children, ...props }: IChipProps) => {
     <div
       {...props}
       className={cn([
-        "rounded-lg py-1 font-semibold text-sm",
+        "rounded-lg py-1 px-3 font-semibold text-sm w-fit",
         chipVariantsStyles[variant],
         props?.className,
       ])}

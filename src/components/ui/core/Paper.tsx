@@ -8,7 +8,7 @@ const Paper = ({ className, children, ...props }: TPaperProps) => {
     <div
       {...props}
       className={cn([
-        "shadow rounded-2xl p-8 bg-white h-full overflow-auto",
+        "shadow rounded-2xl p-8 bg-white overflow-auto",
         className,
       ])}
       {...props}

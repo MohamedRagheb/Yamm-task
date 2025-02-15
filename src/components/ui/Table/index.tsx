@@ -11,11 +11,15 @@ import TablePagination from "./TablePagination";
 
 // Utils
 import { cn } from "@/utils/cn.ts";
+import { removeFromObj } from "@/utils/removeFromObj.ts";
 
 const Table = <T,>({ ...props }: ITableProps<T>) => {
   return (
     <TableContextProvider {...props}>
-      <table {...props} className={cn(["[&_td]:!w-fit ", props?.className])}>
+      <table
+        {...removeFromObj(props, ["render", "data"])}
+        className={cn(["[&_td]:!w-fit [&_td]:!px-2 w-full", props?.className])}
+      >
         <TableHeader />
         <TableContent<T> />
       </table>
