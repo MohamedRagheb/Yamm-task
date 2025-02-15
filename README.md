@@ -1,10 +1,14 @@
-# Yamm Task 
+# Yamm Task
 
 ## Overview
-This is a React application built with TypeScript
+Yamm Task is a React application built with TypeScript, designed for modern web development with a structured and scalable architecture.
 
 ## Features
-
+- TypeScript for static typing
+- Modular and reusable component structure
+- State management with Context API
+- API integration with mock JSON Server
+- Linting and formatting with ESLint & Prettier
 
 ## Folder Structure
 ```
@@ -14,13 +18,12 @@ root/
 │   ├── components/     # Reusable UI components
 │   ├── hooks/          # Custom hooks
 │   ├── contexts/       # Context API providers
-│   ├── store/          # Zustand store
-│   ├── pages/          # Application pages (if using Next.js)
+│   ├── pages/          # Application pages
 │   ├── services/       # API services & integrations
 │   ├── utils/          # Helper functions & utilities
 │   ├── types/          # TypeScript types & interfaces
-│   ├── config/         # Configuration files
 │── public/             # Static public assets
+│── db.json             # Mock database for JSON Server
 │── package.json        # Project dependencies & scripts
 │── tsconfig.json       # TypeScript configuration
 │── README.md           # Documentation
@@ -28,7 +31,7 @@ root/
 
 ## Installation
 ### Prerequisites
-- Node.js (>= 18)
+- Node.js (>= 20)
 - Yarn (recommended)
 
 ### Steps
@@ -51,7 +54,16 @@ root/
 - **Development:** `yarn dev`
 - **Build for Production:** `yarn build`
 - **Start Production Server:** `yarn start`
-- **Linting & Formatting:** `yarn lint` and `yarn format`
+- **Run JSON Server:** `yarn server`
+
+## JSON Server
+This project includes `json-server` for API mocking. Ensure `db.json` is present in the public directory.
+
+### Start JSON Server:
+```sh
+yarn server
+```
+Default endpoint: `http://localhost:8000`
 
 ## License
 This project is licensed under the MIT License.

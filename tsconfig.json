@@ -23,7 +23,7 @@
     "noFallthroughCasesInSwitch": true,
     "allowJs": true
   },
-  "include": ["src" ,"src/globals.d.ts"],
+  "include": [ "**/*.ts", "**/*.tsx" , "src/globals.d.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"
