@@ -23,7 +23,6 @@ root/
 │   ├── utils/          # Helper functions & utilities
 │   ├── types/          # TypeScript types & interfaces
 │── public/             # Static public assets
-│── db.json             # Mock database for JSON Server
 │── package.json        # Project dependencies & scripts
 │── tsconfig.json       # TypeScript configuration
 │── README.md           # Documentation
